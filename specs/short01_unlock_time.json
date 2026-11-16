@@ -1,0 +1,49 @@
+{
+  "title": "short01_unlock_time",
+  "scenes": [
+    {"dur": 3.2, "instant": true, "els": [
+      {"type": "tag", "text": "GTA 6 LAUNCH TIME"},
+      {"type": "gap", "h": 36},
+      {"type": "line", "text": "YOU MIGHT BE", "size": 112},
+      {"type": "line", "text": "PLAYING", "size": 112},
+      {"type": "line", "text": "*WEDNESDAY*", "size": 150},
+      {"type": "line", "text": "*NIGHT*", "size": 150}
+    ]},
+    {"dur": 4.0, "els": [
+      {"type": "line", "text": "U.S. console stores list", "size": 62, "font": "med", "at": 0},
+      {"type": "line", "text": "ONE UNLOCK", "size": 124, "at": 6},
+      {"type": "line", "text": "MOMENT", "size": 124, "at": 6},
+      {"type": "gap", "h": 50},
+      {"type": "chip", "text": "12:00 AM EASTERN", "size": 82, "at": 22},
+      {"type": "gap", "h": 10},
+      {"type": "line", "text": "Thursday, November 19", "size": 60, "font": "med", "at": 30}
+    ]},
+    {"dur": 7.5, "els": [
+      {"type": "line", "text": "SO WHERE *YOU* LIVE", "size": 80, "at": 0},
+      {"type": "gap", "h": 26},
+      {"type": "row", "label": "EASTERN", "value": "12:00 AM THU", "at": 8},
+      {"type": "row", "label": "CENTRAL", "value": "11:00 PM WED", "hl": true, "at": 20},
+      {"type": "row", "label": "MOUNTAIN", "value": "10:00 PM WED", "hl": true, "at": 32},
+      {"type": "row", "label": "PACIFIC", "value": "9:00 PM WED", "hl": true, "at": 44},
+      {"type": "row", "label": "ALASKA", "value": "8:00 PM WED", "hl": true, "at": 56},
+      {"type": "row", "label": "HAWAII", "value": "7:00 PM WED", "hl": true, "at": 68}
+    ]},
+    {"dur": 4.5, "els": [
+      {"type": "tag", "text": "THE CATCH"},
+      {"type": "gap", "h": 36},
+      {"type": "line", "text": "Rockstar only says", "size": 68, "font": "med", "at": 0},
+      {"type": "line", "text": "\"MIDNIGHT", "size": 124, "at": 8},
+      {"type": "line", "text": "LOCAL TIME\"", "size": 124, "at": 8},
+      {"type": "gap", "h": 50},
+      {"type": "line", "text": "So check the *countdown*", "size": 62, "font": "med", "hl": "cyan", "at": 42},
+      {"type": "line", "text": "on your console's store page", "size": 62, "font": "med", "at": 42}
+    ]},
+    {"dur": 3.5, "els": [
+      {"type": "line", "text": "PRELOADED", "size": 136, "at": 0},
+      {"type": "line", "text": "*YET?*", "size": 190, "at": 6},
+      {"type": "gap", "h": 60},
+      {"type": "line", "text": "Follow for GTA 6 answers", "size": 62, "font": "med", "at": 30},
+      {"type": "line", "text": "in 30 seconds", "size": 62, "font": "med", "at": 30}
+    ]}
+  ]
+}

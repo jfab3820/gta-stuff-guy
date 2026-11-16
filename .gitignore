@@ -1,0 +1,5 @@
+stills/
+work/
+*.wav
+__pycache__/
+_scenes/

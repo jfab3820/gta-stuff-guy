@@ -1,0 +1,43 @@
+{
+  "title": "short02_file_size",
+  "bg": "drive",
+  "safe": [210, 1250],
+  "scenes": [
+    {"dur": 3.866667, "instant": true, "els": [
+      {"type": "tag", "text": "GTA 6 FILE SIZE"},
+      {"type": "gap", "h": 36},
+      {"type": "line", "text": "GTA 6 NEEDS UP TO", "size": 84},
+      {"type": "line", "text": "*212 GB*", "size": 250}
+    ]},
+    {"dur": 4.533333, "els": [
+      {"type": "line", "text": "Rockstar's own number", "size": 64, "font": "med", "at": 0},
+      {"type": "line", "text": "FOR THE", "size": 118, "at": 22},
+      {"type": "line", "text": "*PRELOAD*", "size": 150, "at": 22},
+      {"type": "gap", "h": 50},
+      {"type": "chip", "text": "PS5 + XBOX", "size": 96, "at": 78}
+    ]},
+    {"dur": 4.566667, "els": [
+      {"type": "line", "text": "XBOX SERIES S", "size": 104, "at": 0},
+      {"type": "gap", "h": 24},
+      {"type": "row", "label": "USABLE DRIVE", "value": "364 GB", "at": 14},
+      {"type": "row", "label": "GTA 6", "value": "212 GB", "hl": true, "at": 26},
+      {"type": "gap", "h": 36},
+      {"type": "line", "text": "*58%* OF YOUR DRIVE", "size": 92, "at": 56},
+      {"type": "line", "text": "GONE", "size": 190, "color": "pink", "at": 106}
+    ]},
+    {"dur": 3.4, "els": [
+      {"type": "line", "text": "CHECK YOUR", "size": 124, "at": 0},
+      {"type": "line", "text": "STORAGE", "size": 160, "at": 0},
+      {"type": "line", "text": "*TONIGHT*", "size": 190, "at": 34},
+      {"type": "gap", "h": 44},
+      {"type": "line", "text": "not on launch night", "size": 64, "font": "med", "at": 62}
+    ]},
+    {"dur": 4.833333, "els": [
+      {"type": "line", "text": "WHAT ARE YOU", "size": 112, "at": 0},
+      {"type": "line", "text": "*DELETING?*", "size": 168, "at": 8},
+      {"type": "gap", "h": 60},
+      {"type": "line", "text": "Follow for more", "size": 66, "font": "med", "at": 62},
+      {"type": "line", "text": "GTA 6 answers", "size": 66, "font": "med", "at": 62}
+    ]}
+  ]
+}
