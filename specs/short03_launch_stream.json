@@ -1,0 +1,51 @@
+{
+  "title": "short03_launch_stream",
+  "bg": "drive",
+  "safe": [200, 1000],
+  "host": {"assets": "assets/host", "w": 900, "top": 1030},
+  "voice": {"lines": [
+    {"start": 0.0, "dur": 3.317551, "text": "Can't play GTA 6 on launch night? Watch it live."},
+    {"start": 3.317551, "dur": 3.970612, "text": "YouTube is hosting a 24-hour GTA 6 launch stream."},
+    {"start": 7.288163, "dur": 6.765714, "text": "It starts at midnight Eastern, Thursday. That's 11 PM Central and 9 PM Pacific, Wednesday night."},
+    {"start": 14.053878, "dur": 4.205714, "text": "It's on YouTube's own channel. Pre-show starts an hour earlier."},
+    {"start": 18.259592, "dur": 4.989388, "text": "Playing or watching first? Follow for GTA 6 answers in 30 seconds."}
+  ]},
+  "scenes": [
+    {"dur": 3.333333, "instant": true, "safe": [180, 650],
+     "host": {"clip": "assets/host/host_motion_hf01.mp4", "from": 1.4, "w": 1080, "top": 580},
+     "els": [
+      {"type": "tag", "text": "GTA 6 LAUNCH NIGHT"},
+      {"type": "gap", "h": 14},
+      {"type": "line", "text": "CAN'T PLAY?", "size": 104},
+      {"type": "line", "text": "*WATCH IT LIVE*", "size": 116}
+    ]},
+    {"dur": 3.966667, "els": [
+      {"type": "line", "text": "YouTube is hosting a", "size": 62, "font": "med", "at": 0},
+      {"type": "line", "text": "*24-HOUR*", "size": 190, "at": 20},
+      {"type": "line", "text": "LAUNCH STREAM", "size": 110, "at": 48},
+      {"type": "gap", "h": 34},
+      {"type": "line", "text": "Source: YouTube Blog", "size": 44, "font": "med", "at": 70}
+    ]},
+    {"dur": 6.766667, "els": [
+      {"type": "line", "text": "STARTS *MIDNIGHT ET*", "size": 92, "at": 0},
+      {"type": "line", "text": "Thursday, Nov 19", "size": 58, "font": "med", "at": 26},
+      {"type": "gap", "h": 26},
+      {"type": "row", "label": "EASTERN", "value": "12:00 AM THU", "at": 50},
+      {"type": "row", "label": "CENTRAL", "value": "11:00 PM WED", "hl": true, "at": 78},
+      {"type": "row", "label": "PACIFIC", "value": "9:00 PM WED", "at": 112}
+    ]},
+    {"dur": 4.2, "els": [
+      {"type": "line", "text": "ON YOUTUBE'S", "size": 104, "at": 0},
+      {"type": "line", "text": "*OWN CHANNEL*", "size": 124, "at": 14},
+      {"type": "gap", "h": 40},
+      {"type": "chip", "text": "PRE-SHOW: 1 HOUR EARLIER", "size": 60, "at": 62}
+    ]},
+    {"dur": 5.5, "els": [
+      {"type": "line", "text": "PLAYING OR", "size": 112, "at": 0},
+      {"type": "line", "text": "*WATCHING*", "size": 160, "at": 10},
+      {"type": "line", "text": "FIRST?", "size": 112, "at": 22},
+      {"type": "gap", "h": 40},
+      {"type": "line", "text": "Follow for more GTA 6 answers", "size": 52, "font": "med", "at": 62}
+    ]}
+  ]
+}

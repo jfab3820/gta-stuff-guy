@@ -6,6 +6,10 @@ Usage:
   python3 render_short.py spec.json out.mp4 --stills D # QC stills only (look at these first)
 
 Spec: {"scenes": [{"dur": seconds, "instant": bool, "els": [element, ...]}, ...]}
+Optional host layer (see host.py): "host": {"assets": "assets/host", "w": 900, "top": 1030} plus
+"voice": {"lines": [{"start": s, "dur": s, "text": "..."}]} at the top level. Each scene then takes
+"host": "talk" (default), "none", or {"clip": "path.mp4", "from": seconds, "w": 1080, "top": 580}.
+A scene can carry its own "safe": [top, bottom].
 Elements (stacked top to bottom, centred in the safe area):
   {"type":"line","text":"PLAIN *HIGHLIGHT*","size":118,"font":"bold|med","hl":"yellow|cyan|pink","at":frame}
   {"type":"tag","text":"SMALL LABEL","at":frame}
@@ -276,9 +280,10 @@ def layout(scene):
         items.append([img, total, e.get("at", 0)])
         total += img.height
         prev = e["type"]
-    if total > SAFE_BOTTOM - SAFE_TOP:
-        raise SystemExit("scene too tall for the safe area: %d px" % total)
-    top = SAFE_TOP + (SAFE_BOTTOM - SAFE_TOP - total) // 2
+    st, sb = scene.get("safe", (SAFE_TOP, SAFE_BOTTOM))
+    if total > sb - st:
+        raise SystemExit("scene too tall for the safe area: %d px (room %d)" % (total, sb - st))
+    top = st + (sb - st - total) // 2
     return [(img, top + y, at) for img, y, at in items]
 
 
@@ -325,6 +330,12 @@ def main():
         base = lambda g, total: bg_frame(bg, g / total)
     counts = [int(round(s["dur"] * FPS)) for s in spec["scenes"]]
     total = sum(counts)
+    host = None
+    if spec.get("host"):
+        from host import HostLayer
+        host = HostLayer(spec, counts)
+        plain = base
+        base = None
     work = os.path.join(os.path.dirname(os.path.abspath(out)), "_scenes")
     os.makedirs(work, exist_ok=True)
     done, files = 0, []
@@ -335,8 +346,11 @@ def main():
         if stills:
             os.makedirs(stills, exist_ok=True)
             picks = [0, n - 1] if i == 0 else [n - 1]
+            if host:
+                picks = sorted(set(picks + [n // 3, (2 * n) // 3]))
             for k in picks:
-                frame(base(done + k, total), items, k, inst).save(os.path.join(stills, "s%d_f%03d.png" % (i + 1, k)))
+                b = host.apply(plain(done + k, total), s, i, k, done + k, sequential=False) if host else base(done + k, total)
+                frame(b, items, k, inst).save(os.path.join(stills, "s%d_f%03d.png" % (i + 1, k)))
             done += n
             continue
         tmp = os.path.join(work, "scene%d.tmp.mp4" % (i + 1))
@@ -347,7 +361,8 @@ def main():
              "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
         for k in range(n):
             fl = 0.3 * (1 - k / 5) if (i > 0 and k < 5 and spec.get("flash", True)) else 0.0
-            ff.stdin.write(frame(base(done + k, total), items, k, inst, fl).tobytes())
+            b = host.apply(plain(done + k, total), s, i, k, done + k) if host else base(done + k, total)
+            ff.stdin.write(frame(b, items, k, inst, fl).tobytes())
         ff.stdin.close()
         if ff.wait() != 0:
             raise SystemExit("ffmpeg failed on scene %d" % (i + 1))
