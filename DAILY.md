@@ -18,6 +18,15 @@ The rules in `CLAUDE.md` still hold: original host only, no leaked footage or is
 - Check every claim today with WebSearch: two independent sources, one official where possible (Rockstar Newswire, PlayStation Blog, Xbox Wire, YouTube Blog). The container cannot open most pages, so read them through search results. If a claim does not hold up, cut it or pick another topic.
 - Write the sources into the topic's row in `topics.md`.
 
+## 1b. Atlas's Short (one a day, see `ATLAS.md`)
+
+- `git -C /home/user/levelup-command-center fetch -q origin atlas/mission-control-v3-foundation`, then `git -C /home/user/levelup-command-center show origin/atlas/mission-control-v3-foundation:ai-ops/gta-stuff/atlas-daily/DATE.json`. If there is no file, there's no Atlas Short today. Say so in one line and carry on.
+- `vidiq_video_upload` with its `vidiq_upload_id` gives a fresh `videoUrl`. Download it to `work/atlas_DATE.mp4` (storage.googleapis.com is reachable).
+- Re-check its claims with WebSearch today, two sources each.
+- Add it to the batch file as `{"id": "atlasNN_slug", "external": "work/atlas_DATE.mp4", "by": "Atlas", "slot": ..., "title", "description", "tags"}`, taken from his file. `batch.py build` fixes its loudness (adding the channel music if it is silent) and checks it.
+- Look at its contact sheet for logos, game characters, footage or text errors. If it fails, leave it out of the batch, write the reason with the date in `atlas-feedback.md`, and tell Johnathan.
+- Atlas's slot is 4:30 PM through Sun Nov 22, then 9:30 PM.
+
 ## 2. Write the specs
 
 - One spec per Short in `specs/`, named `shortNN_slug.json`. Copy the nearest existing spec as the pattern.

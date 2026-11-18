@@ -11,6 +11,7 @@ The steps live in the `gta6-shorts-pipeline` skill. This repo holds the code and
 | --- | --- |
 | `batch.py` | The daily run: one voice request for every Short of the day, local mix with the channel music, loudness at -15 LUFS, checks and a report. See `DAILY.md`. |
 | `DAILY.md` | What the scheduled morning session does, step by step. |
+| `ATLAS.md` | Atlas's daily Short: format, rules and how he delivers it. `atlas-feedback.md` is where Cade writes holds and fixes. |
 | `topics.md` | Topic queue with sources. `LOG.md` lists what has been posted. |
 | `render_short.py` | Renderer, v2. Text scenes over a still or moving background. 1080x1920, 30 fps, no audio. |
 | `host.py` | Host layer for the renderer, v3. A talking puppet built from the four stills, and keyed green-screen motion clips. |

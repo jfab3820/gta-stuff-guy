@@ -17,6 +17,9 @@ Batch file:
    "shorts": [{"id": "short05_frame_rate", "spec": "specs/short05_frame_rate.json",
                "slot": "12:30", "title": "...", "description": "...", "tags": ["..."]}]}
 
+A Short from Atlas (or any finished video) takes "external": "path/to.mp4" instead of "spec".
+build then only fixes its loudness (adding the channel music if it has no audio) and checks it.
+
 Spec timing: put the voice text in "voice": {"lines": [{"text": "..."}]}. A scene without "dur"
 lasts as long as the next "lines" voice lines (default 1). The last scene gets a 0.6 s tail.
 """
@@ -55,12 +58,13 @@ def duration(path):
 def load(batch_path):
     batch = json.load(open(batch_path))
     for s in batch["shorts"]:
-        s["_spec"] = json.load(open(os.path.join(ROOT, s["spec"])))
+        if "spec" in s:
+            s["_spec"] = json.load(open(os.path.join(ROOT, s["spec"])))
     return batch
 
 
 def all_lines(batch):
-    return [ln["text"] for s in batch["shorts"] for ln in s["_spec"]["voice"]["lines"]]
+    return [ln["text"] for s in batch["shorts"] if "_spec" in s for ln in s["_spec"]["voice"]["lines"]]
 
 
 def voice_urls(voice_path):
@@ -116,6 +120,29 @@ def mix(base, voice_wav, music, total, out):
          "-t", "%.3f" % total, "-movflags", "+faststart", out])
 
 
+def has_audio(path):
+    out = run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+               "-of", "csv=p=0", path]).stdout
+    return bool(out.strip())
+
+
+def take(src, music, out):
+    """Finished video from outside the pipeline: 1080x1920 H.264, loudness -15 LUFS."""
+    total = duration(src)
+    vf = "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,fps=30"
+    norm = "loudnorm=I=-15:TP=-2:LRA=11,aresample=48000,alimiter=limit=0.79:level=false"
+    if has_audio(src):
+        cmd = ["-i", src, "-filter_complex", "[0:v]%s[v];[0:a]%s[a]" % (vf, norm)]
+    else:
+        cmd = ["-i", src, "-stream_loop", "-1", "-i", music, "-filter_complex",
+               "[0:v]%s[v];[1:a]aformat=sample_rates=48000:channel_layouts=stereo,atrim=0:%.3f,"
+               "afade=t=out:st=%.3f:d=0.8,%s[a]" % (vf, total, max(0, total - 0.8), norm)]
+    run(["ffmpeg", "-y", "-v", "error"] + cmd + ["-map", "[v]", "-map", "[a]", "-c:v", "libx264",
+         "-preset", "slow", "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+         "-t", "%.3f" % total, "-movflags", "+faststart", out])
+    return {"scenes": [{"dur": 3.0}] * max(1, int(total // 3))}
+
+
 def check(path, spec):
     errs = run(["ffmpeg", "-v", "error", "-i", path, "-f", "null", "-"]).stderr.strip()
     r = subprocess.run(["ffmpeg", "-nostats", "-i", path, "-af", "ebur128=peak=true", "-f", "null", "-"],
@@ -146,8 +173,8 @@ def check(path, spec):
 
 def build(batch_path, voice_path, stills):
     batch = load(batch_path)
-    urls = voice_urls(voice_path)
     texts = all_lines(batch)
+    urls = voice_urls(voice_path) if texts else []
     if len(urls) != len(texts):
         raise SystemExit("voice has %d lines, batch has %d" % (len(urls), len(texts)))
     music = fetch(MUSIC, "channel_music.wav")
@@ -155,34 +182,26 @@ def build(batch_path, voice_path, stills):
     os.makedirs(os.path.join(ROOT, "out"), exist_ok=True)
     report, k = [], 0
     for s in batch["shorts"]:
-        sid, spec = s["id"], s["_spec"]
-        n = len(spec["voice"]["lines"])
-        parts = [fetch(u, hashlib.sha1(u.encode()).hexdigest()[:16] + ".mp3") for u in urls[k:k + n]]
-        k += n
-        durs = [duration(p) for p in parts]
-        total = time_spec(spec, durs)
-        timed = os.path.join(WORK, sid + ".timed.json")
-        json.dump(spec, open(timed, "w"), indent=1)
-        if stills:
-            d = os.path.join(WORK, sid + "_stills")
-            run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, os.path.join(WORK, "x.mp4"),
-                 "--stills", d], cwd=ROOT)
-            print("%s: stills in %s (%.1f s)" % (sid, d, total))
-            continue
-        voice_wav = os.path.join(WORK, sid + "_voice.wav")
-        inputs = sum([["-i", p] for p in parts], [])
-        cat = "".join("[%d:a]" % i for i in range(n)) + "concat=n=%d:v=0:a=1[a]" % n
-        run(["ffmpeg", "-y", "-v", "error"] + inputs + ["-filter_complex", cat, "-map", "[a]",
-             "-ar", "48000", "-ac", "2", voice_wav])
-        base = os.path.join(WORK, sid + "_base.mp4")
-        run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, base], cwd=ROOT)
-        out = os.path.join(ROOT, "out", sid + ".mp4")
-        mix(base, voice_wav, music, total, out)
+        sid = s["id"]
+        if "external" in s:
+            if stills:
+                continue
+            out = os.path.join(ROOT, "out", sid + ".mp4")
+            spec = take(os.path.join(ROOT, s["external"]), music, out)
+        else:
+            spec = s["_spec"]
+            out = None
+        if out is None:
+            out = render_one(s, spec, urls, k, music, stills)
+            k += len(spec["voice"]["lines"])
+            if out is None:
+                continue
         qc = check(out, spec)
         sha = hashlib.sha256(open(out, "rb").read()).hexdigest()
         item = {"id": sid, "file": "out/%s.mp4" % sid, "raw_url": RAW + "out/%s.mp4" % sid, "sha256": sha,
                 "bytes": os.path.getsize(out), "title": s["title"], "description": s["description"],
-                "tags": s.get("tags", []), "publishAt": publish_at(batch["date"], s["slot"])}
+                "tags": s.get("tags", []), "publishAt": publish_at(batch["date"], s["slot"]),
+                "by": s.get("by", "Cade")}
         item.update(qc)
         report.append(item)
         print("%s: %.1f s, %.1f LUFS, peak %.1f, %s" % (sid, qc["duration"], qc["lufs"], qc["peak"],
@@ -191,6 +210,32 @@ def build(batch_path, voice_path, stills):
         rp = os.path.splitext(batch_path)[0] + ".report.json"
         json.dump(report, open(rp, "w"), indent=1)
         print("report:", rp)
+
+
+def render_one(s, spec, urls, k, music, stills):
+    sid = s["id"]
+    n = len(spec["voice"]["lines"])
+    parts = [fetch(u, hashlib.sha1(u.encode()).hexdigest()[:16] + ".mp3") for u in urls[k:k + n]]
+    durs = [duration(p) for p in parts]
+    total = time_spec(spec, durs)
+    timed = os.path.join(WORK, sid + ".timed.json")
+    json.dump(spec, open(timed, "w"), indent=1)
+    if stills:
+        d = os.path.join(WORK, sid + "_stills")
+        run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, os.path.join(WORK, "x.mp4"),
+             "--stills", d], cwd=ROOT)
+        print("%s: stills in %s (%.1f s)" % (sid, d, total))
+        return None
+    voice_wav = os.path.join(WORK, sid + "_voice.wav")
+    inputs = sum([["-i", p] for p in parts], [])
+    cat = "".join("[%d:a]" % i for i in range(n)) + "concat=n=%d:v=0:a=1[a]" % n
+    run(["ffmpeg", "-y", "-v", "error"] + inputs + ["-filter_complex", cat, "-map", "[a]",
+         "-ar", "48000", "-ac", "2", voice_wav])
+    base = os.path.join(WORK, sid + "_base.mp4")
+    run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, base], cwd=ROOT)
+    out = os.path.join(ROOT, "out", sid + ".mp4")
+    mix(base, voice_wav, music, total, out)
+    return out
 
 
 def main():
