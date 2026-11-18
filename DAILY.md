@@ -9,6 +9,7 @@ The rules in `CLAUDE.md` still hold: original host only, no leaked footage or is
 - If this repo is not on disk, call `add_repo` for `jfab3820/gta-stuff-guy` with push access, run the clone command it returns, then `register_repo_root`.
 - Check `python3 -c "import numpy, scipy, PIL"`, `ffmpeg -version` and that `/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf` exists. The environment's setup script installs them; if one is missing, run `pip install numpy scipy pillow` or fetch the font from `https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/`.
 - `vidiq_balance`. If it is under 150 credits, make one Short and say why.
+- If the vidIQ tools are missing from this session, still pick and fact-check the topics and write the specs, then stop. Tell Johnathan the scheduled task needs the vidIQ connector added in the claude.ai routines settings, and do not try another way to upload.
 
 ## 1. Pick topics
 
