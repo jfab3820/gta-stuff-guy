@@ -38,7 +38,10 @@ WORK = os.path.join(ROOT, "work")
 
 
 def run(cmd, **kw):
-    return subprocess.run(cmd, check=True, capture_output=True, text=True, **kw)
+    r = subprocess.run(cmd, capture_output=True, text=True, **kw)
+    if r.returncode != 0:
+        raise SystemExit("failed: %s\n%s" % (" ".join(cmd[:3]), (r.stdout + r.stderr).strip()[-600:]))
+    return r
 
 
 def fetch(url, name):

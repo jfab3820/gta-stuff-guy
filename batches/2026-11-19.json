@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-19",
+ "shorts": [
+  {
+   "id": "short05_frame_rate",
+   "spec": "specs/short05_frame_rate.json",
+   "slot": "12:30",
+   "title": "GTA 6 Frame Rate: 30 or 60 FPS?",
+   "description": "Rockstar says GTA 6 runs at 30 FPS on PS5 and Xbox Series X|S. A 60 FPS mode isn't confirmed yet.\nDoes 30 vs 60 matter to you? #gta6 #gtavi #shorts",
+   "tags": [
+    "GTA 6",
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "GTA 6 launch",
+    "GTA 6 PS5",
+    "GTA 6 Xbox",
+    "GTA 6 news",
+    "GTA 6 launch day",
+    "GTA 6 frame rate",
+    "GTA 6 60fps",
+    "GTA 6 30fps"
+   ]
+  },
+  {
+   "id": "short06_no_disc",
+   "spec": "specs/short06_no_disc.json",
+   "slot": "19:30",
+   "title": "GTA 6 Box Copies Have No Disc Inside",
+   "description": "GTA 6 physical copies come with a download code in the box, not a disc, on PS5 and Xbox. You still download the whole game.\nBox or digital, which did you get? #gta6 #gtavi #shorts",
+   "tags": [
+    "GTA 6",
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "GTA 6 launch",
+    "GTA 6 PS5",
+    "GTA 6 Xbox",
+    "GTA 6 news",
+    "GTA 6 launch day",
+    "GTA 6 physical copy",
+    "GTA 6 disc",
+    "GTA 6 download code"
+   ]
+  }
+ ]
+}

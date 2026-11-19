@@ -1,0 +1,167 @@
+{
+ "title": "short05_frame_rate",
+ "bg": "drive",
+ "safe": [
+  200,
+  1000
+ ],
+ "host": {
+  "assets": "assets/host",
+  "w": 900,
+  "top": 1030
+ },
+ "voice": {
+  "lines": [
+   {
+    "text": "It's GTA 6 launch day. So does it run at 60 frames per second?"
+   },
+   {
+    "text": "Rockstar says GTA 6 runs at 30 on PS5 and Xbox Series X and S."
+   },
+   {
+    "text": "A 60 FPS mode? Not confirmed. Rockstar says it isn't sure yet."
+   },
+   {
+    "text": "So expect 30, and treat any 60 FPS claim as a rumor until Rockstar says so."
+   },
+   {
+    "text": "30 or 60, does it matter to you? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 LAUNCH DAY"
+    },
+    {
+     "type": "gap",
+     "h": 14
+    },
+    {
+     "type": "line",
+     "text": "*60 FPS?*",
+     "size": 190
+    },
+    {
+     "type": "line",
+     "text": "Here's the truth",
+     "size": 60,
+     "font": "med"
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "ROCKSTAR SAYS",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 24
+    },
+    {
+     "type": "row",
+     "label": "PS5",
+     "value": "30 FPS",
+     "hl": true,
+     "at": 16
+    },
+    {
+     "type": "row",
+     "label": "XBOX SERIES X|S",
+     "value": "30 FPS",
+     "hl": true,
+     "at": 40
+    },
+    {
+     "type": "gap",
+     "h": 24
+    },
+    {
+     "type": "line",
+     "text": "Source: VGC, TechRadar",
+     "size": 44,
+     "font": "med",
+     "at": 60
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "60 FPS MODE?",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "chip",
+     "text": "NOT CONFIRMED",
+     "size": 88,
+     "at": 24
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "EXPECT",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*30 FPS*",
+     "size": 180,
+     "at": 10
+    },
+    {
+     "type": "line",
+     "text": "Anything else is a rumor",
+     "size": 56,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "30 OR 60",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*DOES IT MATTER?*",
+     "size": 104,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 answers",
+     "size": 52,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  }
+ ]
+}

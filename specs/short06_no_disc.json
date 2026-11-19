@@ -1,0 +1,195 @@
+{
+ "title": "short06_no_disc",
+ "bg": "drive",
+ "safe": [
+  200,
+  1000
+ ],
+ "host": {
+  "assets": "assets/host",
+  "w": 900,
+  "top": 1030
+ },
+ "voice": {
+  "lines": [
+   {
+    "text": "Bought GTA 6 in a box? There's no disc inside."
+   },
+   {
+    "text": "Physical copies come with a download code in the box, on PS5 and Xbox."
+   },
+   {
+    "text": "So you still download the whole game before you can play."
+   },
+   {
+    "text": "A disc version? Only a rumor so far."
+   },
+   {
+    "text": "Box or digital, which did you get? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "safe": [
+    180,
+    650
+   ],
+   "host": {
+    "clip": "assets/host/host_motion_hf01.mp4",
+    "from": 0.3,
+    "w": 1080,
+    "top": 660
+   },
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 BOX COPIES"
+    },
+    {
+     "type": "gap",
+     "h": 14
+    },
+    {
+     "type": "line",
+     "text": "*NO DISC*",
+     "size": 124
+    },
+    {
+     "type": "line",
+     "text": "INSIDE",
+     "size": 92
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "THE BOX HAS A",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*DOWNLOAD CODE*",
+     "size": 120,
+     "at": 14
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "PS5 + Xbox Series X|S",
+     "size": 58,
+     "font": "med",
+     "at": 36
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: Push Square, TechRadar",
+     "size": 44,
+     "font": "med",
+     "at": 56
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "YOU STILL",
+     "size": 110,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*DOWNLOAD IT ALL*",
+     "size": 116,
+     "at": 12
+    },
+    {
+     "type": "line",
+     "text": "before you can play",
+     "size": 60,
+     "font": "med",
+     "at": 34
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "DISC VERSION?",
+     "size": 116,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "chip",
+     "text": "ONLY A RUMOR",
+     "size": 88,
+     "at": 20
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "BOX OR",
+     "size": 130,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*DIGITAL?*",
+     "size": 160,
+     "at": 10
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 answers",
+     "size": 52,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  }
+ ]
+}
