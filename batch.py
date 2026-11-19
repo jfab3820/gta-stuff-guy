@@ -215,6 +215,13 @@ def build(batch_path, voice_path, stills):
         print("report:", rp)
 
 
+def renderer(spec):
+    """motion.js for "renderer": "motion" (the motion-graphics look), else render_short.py."""
+    if spec.get("renderer") == "motion":
+        return ["node", os.path.join(ROOT, "motion.js")]
+    return [sys.executable, os.path.join(ROOT, "render_short.py")]
+
+
 def render_one(s, spec, urls, k, music, stills):
     sid = s["id"]
     n = len(spec["voice"]["lines"])
@@ -225,8 +232,7 @@ def render_one(s, spec, urls, k, music, stills):
     json.dump(spec, open(timed, "w"), indent=1)
     if stills:
         d = os.path.join(WORK, sid + "_stills")
-        run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, os.path.join(WORK, "x.mp4"),
-             "--stills", d], cwd=ROOT)
+        run(renderer(spec) + [timed, os.path.join(WORK, "x.mp4"), "--stills", d], cwd=ROOT)
         print("%s: stills in %s (%.1f s)" % (sid, d, total))
         return None
     voice_wav = os.path.join(WORK, sid + "_voice.wav")
@@ -235,7 +241,7 @@ def render_one(s, spec, urls, k, music, stills):
     run(["ffmpeg", "-y", "-v", "error"] + inputs + ["-filter_complex", cat, "-map", "[a]",
          "-ar", "48000", "-ac", "2", voice_wav])
     base = os.path.join(WORK, sid + "_base.mp4")
-    run([sys.executable, os.path.join(ROOT, "render_short.py"), timed, base], cwd=ROOT)
+    run(renderer(spec) + [timed, base], cwd=ROOT)
     out = os.path.join(ROOT, "out", sid + ".mp4")
     mix(base, voice_wav, music, total, out)
     return out

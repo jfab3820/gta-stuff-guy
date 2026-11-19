@@ -1,0 +1,87 @@
+{
+ "title": "short07_launch_answers",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "GTA 6 launch day. Three questions, three answers."
+   },
+   {
+    "text": "One. Price. The standard edition is seventy-nine ninety-nine. Ultimate is ninety-nine ninety-nine."
+   },
+   {
+    "text": "Two. Is it on PC? No PC version has been announced. Right now it's PS5 and Xbox Series X and S."
+   },
+   {
+    "text": "Three. Size. Rockstar says up to 212 gigabytes."
+   },
+   {
+    "text": "Standard or Ultimate, which did you get? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 LAUNCH DAY",
+   "text": [
+    "3 QUESTIONS",
+    "*3 ANSWERS*"
+   ],
+   "sub": "Price, PC and size"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "PRICE",
+   "cards": [
+    [
+     "STANDARD",
+     "$79.99"
+    ],
+    [
+     "ULTIMATE",
+     "$99.99",
+     true
+    ]
+   ],
+   "note": "US prices. Source: PC Gamer, PCGamesN"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "ON PC?",
+   "big": "*NOT ANNOUNCED*",
+   "cards": [
+    [
+     "PS5",
+     "YES"
+    ],
+    [
+     "XBOX SERIES X|S",
+     "YES"
+    ],
+    [
+     "PC",
+     "NO DATE",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "SIZE",
+   "big": "UP TO *212 GB*",
+   "note": "Source: Rockstar, via GamesRadar and VGC"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "STANDARD OR",
+    "*ULTIMATE?*"
+   ],
+   "sub": "Follow for more GTA 6 answers"
+  }
+ ]
+}

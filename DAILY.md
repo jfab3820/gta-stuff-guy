@@ -38,7 +38,8 @@ The rules in `CLAUDE.md` still hold: original host only, no leaked footage or is
   - **B, hook clip:** scene 1 plays `host_motion_hf01.mp4`, then cards with the host hidden (`"host": "none"`).
   - **C, no host:** big list rows or a countdown, `"bg": "drive"`, no `"host"`.
   - No two Shorts in a row share a look.
-  - **Test, Nov 20 to 22:** both of Cade's Shorts use look C (no host, bold cards), because Studio on Nov 19 showed the HeyGen-style Short 4 at 1.1K views against 55 to 57 for the host-talk Shorts 3 and 5. The Sunday review decides whether the host stays.
+  - **D, motion graphics:** `"renderer": "motion"` renders with `motion.js` (the HeyGen-style look: kinetic text, badges, cards, wipes). Pattern: `specs/short07_launch_answers.json`.
+  - **Test, Nov 20 to 22:** both of Cade's Shorts use look D (motion graphics), because Studio on Nov 19 showed the HeyGen-style Short 4 at 1.1K views against 55 to 57 for the host-talk Shorts 3 and 5. The Sunday review decides whether the host stays.
 - Write `batches/YYYY-MM-DD.json`: date, and for each Short its id, spec, slot, title (under 60 characters, starts with "GTA 6"), description (2 lines ending `#gta6 #gtavi #shorts`) and 8 to 12 tags.
 - Slots, Central time: 12:30 and 7:30 PM for 2 a day; 12:30, 4:30 and 7:30 PM for 3 a day.
 

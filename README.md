@@ -13,6 +13,7 @@ The steps live in the `gta6-shorts-pipeline` skill. This repo holds the code and
 | `DAILY.md` | What the scheduled morning session does, step by step. |
 | `ATLAS.md` | Atlas's daily Short: format, rules and how he delivers it. `atlas-feedback.md` is where Cade writes holds and fixes. |
 | `topics.md` | Topic queue with sources. `LOG.md` lists what has been posted. |
+| `motion.js` | Motion-graphics renderer (look D, the HeyGen-style look): HTML drawn frame by frame in the pre-installed Chromium. Specs with `"renderer": "motion"` use it. |
 | `render_short.py` | Renderer, v2. Text scenes over a still or moving background. 1080x1920, 30 fps, no audio. |
 | `host.py` | Host layer for the renderer, v3. A talking puppet built from the four stills, and keyed green-screen motion clips. |
 | `render_short_v1.py` | The v1 renderer, kept for reference. `patch_v2.py` turns it into v2. |
