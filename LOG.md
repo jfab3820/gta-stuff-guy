@@ -8,3 +8,5 @@ One row per published Short. The playbook's Log table holds the same rows throug
 | Nov 16 | Short 2: storage size | text | posted | see playbook | |
 | Nov 16 | Short 3: launch night stream | A, host talk | https://www.youtube.com/watch?v=TVsjOrLRdlY | YouTube Blog, Net Influencer, Yahoo Tech | |
 | Nov 17 | Short 4: 3 things to do first | HeyGen | https://www.youtube.com/watch?v=eU9PodpexDU | TechRadar, GamesRadar, GGRecon, Rockstar Intel | |
+| Nov 19, 12:30 PM CT (scheduled) | Short 5: GTA 6 frame rate, 30 or 60 FPS? | A, host talk | https://www.youtube.com/watch?v=p9iz4rpGXIY | VGC, TechRadar, TweakTown | First daily batch. Approved by Johnathan in the Claude app, 5:25 AM. |
+| Nov 19, 7:30 PM CT (scheduled) | Short 6: GTA 6 box copies have no disc | B, hook clip + cards | https://www.youtube.com/watch?v=jKExWBRcj5c | Push Square, TechRadar, Insider Gaming, Guru3D | Same approval. |
