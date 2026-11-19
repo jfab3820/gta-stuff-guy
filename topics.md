@@ -6,8 +6,8 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | # | Topic | Hook idea | Status | Sources (date checked) |
 | --- | --- | --- | --- | --- |
 | 1 | Frame rate on PS5, PS5 Pro and Xbox Series X and S | "Will GTA 6 run at 60?" | posted (Short 5) | VGC, TechRadar, TweakTown (Nov 19). PS5 Pro left out: unconfirmed |
-| 2 | Is GTA 6 on PC? What Rockstar has said | "PC players, here's the truth" | verify | |
-| 3 | Editions and what the $100 one adds | "Is the $100 version worth it?" | verify | |
+| 2 | Is GTA 6 on PC? What Rockstar has said | "PC players, here's the truth" | posted (Short 7, with price) | PC Gamer, GTABase (Nov 19) |
+| 3 | Editions and what the $100 one adds | "Is the $100 version worth it?" | verify (prices used in Short 7: $79.99 / $99.99, PC Gamer, PCGamesN, Nov 19) | |
 | 4 | Physical disc: do you still have to download? | "Bought the disc? Bad news" | posted (Short 6) | Push Square, TechRadar, Insider Gaming, Guru3D (Nov 19). Final Boss disagreed; outweighed |
 | 5 | Day-one patch and real install size | "212 GB isn't the end of it" | verify | |
 | 6 | GTA Online for GTA 6: at launch or later? | "Where's Online?" | verify | |
