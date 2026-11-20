@@ -1,0 +1,78 @@
+{
+ "title": "short08_online",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "Looking for GTA Online in GTA 6? It's not there yet."
+   },
+   {
+    "text": "Take-Two says GTA 6 launches as a single-player game."
+   },
+   {
+    "text": "A new online mode? No release date has been announced."
+   },
+   {
+    "text": "The old GTA Online keeps running. Take-Two says it will keep supporting it."
+   },
+   {
+    "text": "Story first or online first? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 ONLINE",
+   "text": [
+    "WHERE IS",
+    "*GTA ONLINE?*"
+   ],
+   "sub": "Here's what Take-Two said"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "AT LAUNCH",
+   "big": "*SINGLE-PLAYER*",
+   "note": "Source: Take-Two, via TechRadar and GamesRadar"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "NEW ONLINE",
+   "big": "NO DATE *YET*",
+   "cards": [
+    [
+     "RELEASE DATE",
+     "NONE YET",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "OLD GTA ONLINE",
+   "cards": [
+    [
+     "STILL RUNNING",
+     "YES",
+     true
+    ],
+    [
+     "SUPPORT",
+     "CONTINUES"
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "STORY OR",
+    "*ONLINE FIRST?*"
+   ],
+   "sub": "Follow for more GTA 6 answers"
+  }
+ ]
+}

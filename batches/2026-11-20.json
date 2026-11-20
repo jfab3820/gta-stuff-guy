@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-20",
+ "shorts": [
+  {
+   "id": "short08_online",
+   "spec": "specs/short08_online.json",
+   "slot": "12:30",
+   "title": "GTA 6: Where Is GTA Online?",
+   "description": "Take-Two says GTA 6 launches as a single-player game, and no date has been announced for a new online mode. The current GTA Online keeps running.\nStory first or online first? #gta6 #gtavi #shorts",
+   "tags": [
+    "GTA 6",
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "GTA 6 news",
+    "GTA 6 launch",
+    "GTA 6 Online",
+    "GTA Online",
+    "GTA 6 multiplayer",
+    "GTA 6 single player"
+   ]
+  },
+  {
+   "id": "atlas01_leonida_map",
+   "external": "work/atlas_2026-11-20.mp4",
+   "by": "Atlas",
+   "slot": "16:30",
+   "title": "How to Get GTA 6\u2019s Free Leonida Map",
+   "description": "Rockstar\u2019s printable Leonida map is free. The double-sided paper poster is $0.99 on its own.\n#gta6 #gtavi #shorts",
+   "tags": [
+    "GTA 6",
+    "GTA VI",
+    "GTA 6 Today",
+    "Leonida",
+    "GTA 6 map",
+    "Rockstar Games"
+   ]
+  },
+  {
+   "id": "short09_ultimate",
+   "spec": "specs/short09_ultimate.json",
+   "slot": "19:30",
+   "title": "GTA 6 Ultimate Edition: Is It Worth $100?",
+   "description": "GTA 6 Ultimate is $99.99 vs $79.99 for Standard. It adds exclusive cars and weapons, plus extra in-world shops like a salon and a clothing store.\nWorth it or not? #gta6 #gtavi #shorts",
+   "tags": [
+    "GTA 6",
+    "GTA VI",
+    "Grand Theft Auto VI",
+    "GTA 6 news",
+    "GTA 6 launch",
+    "GTA 6 Ultimate Edition",
+    "GTA 6 price",
+    "GTA 6 editions",
+    "GTA 6 worth it"
+   ]
+  }
+ ]
+}

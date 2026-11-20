@@ -1,0 +1,82 @@
+{
+ "title": "short09_ultimate",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "Is the 100 dollar GTA 6 worth it? Here's what it adds."
+   },
+   {
+    "text": "Standard is seventy-nine ninety-nine. Ultimate is ninety-nine ninety-nine."
+   },
+   {
+    "text": "Ultimate adds exclusive cars and weapons."
+   },
+   {
+    "text": "It also unlocks extra in-world shops, like a hair salon and a clothing store."
+   },
+   {
+    "text": "Worth it or not? Tell me in the comments, and follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 ULTIMATE EDITION",
+   "text": [
+    "IS IT WORTH",
+    "*$100?*"
+   ],
+   "sub": "What the extra $20 gets you"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "PRICE",
+   "cards": [
+    [
+     "STANDARD",
+     "$79.99"
+    ],
+    [
+     "ULTIMATE",
+     "$99.99",
+     true
+    ]
+   ],
+   "note": "US prices"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "ULTIMATE ADDS",
+   "cards": [
+    [
+     "CARS",
+     "EXCLUSIVE"
+    ],
+    [
+     "WEAPONS",
+     "EXCLUSIVE",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "EXTRA SHOPS",
+   "big": "SALON + *CLOTHING STORE*",
+   "note": "Source: Windows Central, Tbreak"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WORTH IT",
+    "*OR NOT?*"
+   ],
+   "sub": "Tell me in the comments"
+  }
+ ]
+}
