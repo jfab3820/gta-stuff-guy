@@ -13,8 +13,8 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | 6 | GTA Online for GTA 6: at launch or later? | "Where's Online?" | posted (Short 8) | TechRadar, GamesRadar (Nov 20) |
 | 7 | PS5 Pro enhancements | "Got a PS5 Pro? Here's what you get" | verify | |
 | 8 | Leonida: the real places the map is based on | "This map is basically Florida" | verify | |
-| 9 | Trophy and achievement count | "How many trophies?" | verify | |
-| 10 | First hour: settings to change before you play | "Change these settings first" | verify (after launch) | |
+| 9 | Trophy and achievement count | "How many trophies?" | posted (Short 11) | GGRecon, KeenGamer (Nov 21) |
+| 10 | First hour: settings to change before you play | "Change these settings first" | posted (Short 10) | Engadget, BGR, KeenGamer (Nov 21) |
 | 11 | Fastest early money, from verified guides | "Broke in Vice City?" | verify (after launch) | |
 | 12 | Easter eggs found so far, credited | "Did you catch this?" | verify (after launch) | |
 
