@@ -1,0 +1,87 @@
+{
+ "title": "short11_trophies",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "How many trophies does GTA 6 have? Fifty-five."
+   },
+   {
+    "text": "One Platinum, two Gold, six Silver and forty-six Bronze."
+   },
+   {
+    "text": "There are no online trophies, so the Platinum is all single-player."
+   },
+   {
+    "text": "On Xbox, it's fifty-five achievements worth a thousand Gamerscore."
+   },
+   {
+    "text": "Going for the Platinum? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 TROPHIES",
+   "text": [
+    "HOW MANY?",
+    "*55*"
+   ],
+   "sub": "The full breakdown"
+  },
+  {
+   "kind": "item",
+   "label": "THE LIST",
+   "cards": [
+    [
+     "PLATINUM",
+     "1",
+     true
+    ],
+    [
+     "GOLD",
+     "2"
+    ],
+    [
+     "SILVER",
+     "6"
+    ],
+    [
+     "BRONZE",
+     "46"
+    ]
+   ],
+   "note": "Source: GGRecon, KeenGamer"
+  },
+  {
+   "kind": "item",
+   "label": "ONLINE TROPHIES",
+   "big": "*NONE*",
+   "sub": "The Platinum is all single-player"
+  },
+  {
+   "kind": "item",
+   "label": "ON XBOX",
+   "cards": [
+    [
+     "ACHIEVEMENTS",
+     "55"
+    ],
+    [
+     "GAMERSCORE",
+     "1,000",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "GOING FOR",
+    "*THE PLATINUM?*"
+   ],
+   "sub": "Follow for more GTA 6 answers"
+  }
+ ]
+}

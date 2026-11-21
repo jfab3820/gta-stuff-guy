@@ -1,0 +1,72 @@
+{
+ "title": "short10_settings",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "Just started GTA 6? Change these three settings first."
+   },
+   {
+    "text": "One. Motion blur. It starts at three. Most guides say drop it to zero or one for a sharper picture."
+   },
+   {
+    "text": "Two. Camera shake. Turn it down if the screen effects feel like too much."
+   },
+   {
+    "text": "Three. HDR. Run the brightness calibration before you play."
+   },
+   {
+    "text": "Which one did you change first? Follow for more GTA 6 answers."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 SETTINGS",
+   "text": [
+    "CHANGE THESE",
+    "*3 FIRST*"
+   ],
+   "sub": "Before your next session"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "MOTION BLUR",
+   "cards": [
+    [
+     "DEFAULT",
+     "3"
+    ],
+    [
+     "TRY",
+     "0 OR 1",
+     true
+    ]
+   ],
+   "note": "Source: Engadget, BGR, KeenGamer"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "CAMERA SHAKE",
+   "big": "TURN IT *DOWN*"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "HDR",
+   "big": "*CALIBRATE* IT",
+   "sub": "Brightness, before you play"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHICH ONE",
+    "*FIRST?*"
+   ],
+   "sub": "Follow for more GTA 6 answers"
+  }
+ ]
+}

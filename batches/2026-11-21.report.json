@@ -1,0 +1,56 @@
+[
+ {
+  "id": "short10_settings",
+  "file": "out/short10_settings.mp4",
+  "raw_url": "https://raw.githubusercontent.com/jfab3820/gta-stuff-guy/main/out/short10_settings.mp4",
+  "sha256": "4045d15358c27d4bb50ab8e7dbf421600f44827b3c63a36dd850731a7b1901e9",
+  "bytes": 3150715,
+  "title": "GTA 6: Change These 3 Settings First",
+  "description": "Motion blur starts at 3 in GTA 6; most guides say drop it to 0 or 1. Turn camera shake down, and run the HDR calibration before you play.\nWhich did you change first? #gta6 #gtavi #shorts",
+  "tags": [
+   "GTA 6",
+   "GTA VI",
+   "Grand Theft Auto VI",
+   "GTA 6 tips",
+   "GTA 6 guide",
+   "GTA 6 settings",
+   "GTA 6 best settings",
+   "GTA 6 motion blur",
+   "GTA 6 HDR"
+  ],
+  "publishAt": "2026-11-21T12:30:00-06:00",
+  "by": "Cade",
+  "duration": 25.57,
+  "lufs": -15.2,
+  "peak": -1.7,
+  "problems": [],
+  "sheet": "/home/user/gta-stuff-guy/work/short10_settings_sheet.png"
+ },
+ {
+  "id": "short11_trophies",
+  "file": "out/short11_trophies.mp4",
+  "raw_url": "https://raw.githubusercontent.com/jfab3820/gta-stuff-guy/main/out/short11_trophies.mp4",
+  "sha256": "a089fc0daf6f0ab0b30269abeea511ce10b70132a1295058491cdbfcb10e03f6",
+  "bytes": 2737685,
+  "title": "GTA 6 Has 55 Trophies: Full Breakdown",
+  "description": "GTA 6 has 55 trophies: 1 Platinum, 2 Gold, 6 Silver and 46 Bronze. No online trophies, and 1,000 Gamerscore on Xbox.\nGoing for the Platinum? #gta6 #gtavi #shorts",
+  "tags": [
+   "GTA 6",
+   "GTA VI",
+   "Grand Theft Auto VI",
+   "GTA 6 tips",
+   "GTA 6 guide",
+   "GTA 6 trophies",
+   "GTA 6 platinum",
+   "GTA 6 achievements",
+   "GTA 6 trophy list"
+  ],
+  "publishAt": "2026-11-21T19:30:00-06:00",
+  "by": "Cade",
+  "duration": 21.43,
+  "lufs": -15.1,
+  "peak": -1.4,
+  "problems": [],
+  "sheet": "/home/user/gta-stuff-guy/work/short11_trophies_sheet.png"
+ }
+]
