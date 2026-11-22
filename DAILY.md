@@ -44,7 +44,7 @@ The rules in `CLAUDE.md` still hold: original host only, no leaked footage or is
   - **C, no host:** big list rows or a countdown, `"bg": "drive"`, no `"host"`.
   - No two Shorts in a row share a look.
   - **D, motion graphics:** `"renderer": "motion"` renders with `motion.js` (the HeyGen-style look: kinetic text, badges, cards, wipes). Pattern: `specs/short07_launch_answers.json`.
-  - **Test, Nov 20 to 22:** both of Cade's Shorts use look D (motion graphics), because Studio on Nov 19 showed the HeyGen-style Short 4 at 1.1K views against 55 to 57 for the host-talk Shorts 3 and 5. The Sunday review decides whether the host stays.
+  - **Variety (Johnathan, Nov 22: "all of them looking the same"):** give every Short in a day a different `"theme"` (neon, sunset, ocean, ember, money). Match the topic: money for money tips, ember for warnings, ocean for settings and how-tos, sunset for secrets. At least once every two days, open a Short with the host hook clip (look B) instead of a title card. Never repeat yesterday's last theme first thing today.
 - Write `batches/YYYY-MM-DD.json`: date, and for each Short its id, spec, slot, title (under 60 characters, starts with "GTA 6"), description (2 lines ending `#gta6 #gtavi #shorts`) and 8 to 12 tags.
 - Slots, Central time: 12:30 and 7:30 PM for 2 a day; 12:30, 4:30 and 7:30 PM for 3 a day.
 
