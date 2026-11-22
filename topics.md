@@ -18,6 +18,19 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | 11 | Fastest early money, from verified guides | "Broke in Vice City?" | verify (after launch) | |
 | 12 | Easter eggs found so far, credited | "Did you catch this?" | verify (after launch) | |
 
+## New niche queue (from vidIQ outliers, Nov 21: breakout GTA 6 Shorts this week)
+
+| Topic | Evidence (their views, channel size) | Can we make it without gameplay? | Status |
+| --- | --- | --- | --- |
+| Don't farm money in Chapter 1 (it gets taken?) | "Stop Farming Money in GTA 6 Chapter 1" 328K (39K subs); "GTA 6 Takes ALL Your Money After Chapter 1" 12.7K (749 subs) | Yes, warning plus explanation | verify |
+| First-person: no full mode, but the inspection camera trick | Johnathan: "super huge right now"; Rockstar confirmed no full mode (VGC, Beebom, TweakTown); camera: hold L2/LT and press both sticks (Dot Esports, needs a second source) | Yes, button steps | verify |
+| Do these things before starting / early-game tips | "Do these 10 things before starting GTA 6" 470K (895 subs); JorRaptor early-game tips 300K | Yes, list | verify |
+| Fast early money | "You need a few thousand dollars? Quick lick" 482K (6.4K subs); "How to get rich early" 154K | Partly, method steps | verify |
+| Things you missed / learned | "5 Things I Learned TODAY In GTA 6" 2.6M (112K subs) | Yes, list | verify |
+| Monster Crab Easter egg | 605K (14.9K subs); 26K (433 subs) | Needs gameplay | needs gameplay |
+| Crabshack VF5 SMG + $10,000 | 125K (549K subs); "Secret weapon & $10K early" 28K (1.7K subs) | Needs gameplay | needs gameplay |
+| Secret loot room / hidden supercars / plane crash wreckage | 30K, 20K, 28K | Needs gameplay | needs gameplay |
+
 Atlas posted: free Leonida map (Nov 20).
 
 Posted already: unlock times (Short 1), storage size (Short 2), launch night stream (Short 3), 3 things to do first (Short 4).

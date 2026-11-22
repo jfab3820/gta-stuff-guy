@@ -13,6 +13,11 @@ The rules in `CLAUDE.md` still hold: original host only, no leaked footage or is
 
 ## 1. Pick topics
 
+**Niche (Johnathan, Nov 21):** money, secrets, missable things, warnings and how-to-unlock tips, the things players look up while they play. Our own data agrees: Shorts about the viewer's own game, console or purchase did 500 to 1,300 views; news did under 100. No more news Shorts.
+
+- **Research first (5 credits):** run `vidiq_outliers` with keyword "GTA 6 secrets, hidden money, missable things, tips", contentType short, publishedWithin thisWeek, sort viewCount, limit 25. Pick from what is breaking out and not yet in `LOG.md`. Never use or re-upload their footage; we make our own version.
+- **Without gameplay footage,** prefer topics that work as text and voice: warnings ("don't do X in Chapter 1"), step-by-step button tips, best early money methods, settings, missables. Location secrets (where to find X) need Johnathan's own clips; put those in `topics.md` under "needs gameplay".
+
 - Count: 2 through Sun Nov 22, 3 from Mon Nov 23.
 - Take the top `ready` or `verify` rows from `topics.md`. Skip anything posted already (see `LOG.md`).
 - Check every claim today with WebSearch: two independent sources, one official where possible (Rockstar Newswire, PlayStation Blog, Xbox Wire, YouTube Blog). The container cannot open most pages, so read them through search results. If a claim does not hold up, cut it or pick another topic.
