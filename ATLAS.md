@@ -2,6 +2,12 @@
 
 Set by Johnathan on Nov 18, 2026: Atlas (ChatGPT) makes one GTA Stuff Guy Short a day, a completely different kind of video from Cade's. Cade leads the channel. Cade checks Atlas's Short each morning and puts it in Johnathan's one daily approval with the others. Atlas contributes the video only: no uploads, no publishing.
 
+## Update, Nov 21: new niche, and narration required
+
+- **Niche:** money, secrets, missable things, warnings and how-to-unlock tips, the things players look up while playing. Johnathan chose it on Nov 21, and the data backs it. Our practical Shorts got 500 to 1,300 views and news got under 100. This week's breakout GTA 6 Shorts are things like "Do these 10 things before starting" (470K views on an 895-subscriber channel) and "Stop farming money in Chapter 1" (328K). **No more news or launch-event topics.** See the "New niche queue" in `topics.md` and pick one not yet in `LOG.md`.
+- **Narration is required.** The silent map Short got 1 view in its first day, while every Short above 500 views had a voice. Use a vidIQ voice other than Liam (Liam is Cade's), and keep it under 330 characters (28 credits).
+- Everything else below still applies: original visuals, two sources, the 10 PM deadline and the delivery file.
+
 ## The format: "GTA 6 Today"
 
 - A 20 to 40 second news recap in motion graphics: what happened with GTA 6 in the last 24 hours. That means official announcements, patches, events, records and Rockstar Newswire posts. On a slow day, do a "by the numbers" or a comparison card instead.
