@@ -1,0 +1,82 @@
+{
+ "title": "short12_first_person",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "Want first person in GTA 6? There's no full mode, but there is a hidden view."
+   },
+   {
+    "text": "Rockstar confirmed there's no first-person mode at launch."
+   },
+   {
+    "text": "But stand still, hold L2, and click the right stick. On Xbox, that's LT and the right stick."
+   },
+   {
+    "text": "Move and it snaps back. And don't click both sticks without L2, or you'll trigger Focus mode."
+   },
+   {
+    "text": "Would you play the whole game in first person? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 FIRST PERSON",
+   "text": [
+    "THE *HIDDEN*",
+    "VIEW"
+   ],
+   "sub": "There's no full mode, but..."
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "FULL MODE",
+   "big": "*NOT* AT LAUNCH",
+   "note": "Source: Rockstar, via VGC and TweakTown"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "STAND STILL: HOLD, CLICK",
+   "cards": [
+    [
+     "PS5",
+     "L2 + R3",
+     true
+    ],
+    [
+     "XBOX",
+     "LT + RS"
+    ]
+   ],
+   "note": "Source: Dot Esports, GamerFuzion"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "HEADS UP",
+   "cards": [
+    [
+     "MOVE",
+     "SNAPS BACK"
+    ],
+    [
+     "NO L2?",
+     "FOCUS MODE",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHOLE GAME IN",
+    "*FIRST PERSON?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

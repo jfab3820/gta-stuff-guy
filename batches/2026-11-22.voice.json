@@ -1,0 +1,48 @@
+{
+ "voiceoverId": "e4a80d1c-f1c9-471e-b806-8e8e654b6fdd",
+ "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+ "charCount": 727,
+ "credits": 28,
+ "lines": [
+  {
+   "index": 0,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/c3e1c104-470e-454e-ac59-80a39d3055b8.mp3"
+  },
+  {
+   "index": 1,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/3aeea59d-8f4c-4bf6-875a-5629c23989b8.mp3"
+  },
+  {
+   "index": 2,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/eff53720-13e7-4da9-a23f-c2616c1c50d9.mp3"
+  },
+  {
+   "index": 3,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/d5ffa8de-3da6-4cc4-8f94-9f9eba538180.mp3"
+  },
+  {
+   "index": 4,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/d3c63c7e-d0c5-4bf1-a86c-509cc8eff9b8.mp3"
+  },
+  {
+   "index": 5,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/1081db97-0902-4d24-9ce2-1294dc86f1ee.mp3"
+  },
+  {
+   "index": 6,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/33399877-b421-4971-9af8-98797c339ae8.mp3"
+  },
+  {
+   "index": 7,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/794b7857-d5b1-4764-8f19-80a5d01600d1.mp3"
+  },
+  {
+   "index": 8,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/8a37737b-c161-490b-b0aa-d402e1896acc.mp3"
+  },
+  {
+   "index": 9,
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/baa05ff8-6e40-4f2a-9d4b-39458799c133.mp3"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "title": "short13_chapter1_money",
+ "renderer": "motion",
+ "voice": {
+  "lines": [
+   {
+    "text": "Stop farming money in Chapter 1 of GTA 6. Here's why."
+   },
+   {
+    "text": "Guides say the cash you're carrying doesn't carry over when Chapter 1 ends."
+   },
+   {
+    "text": "So spend what you need, like clothes and guns, and keep playing the story."
+   },
+   {
+    "text": "Guides say the bigger money comes later, once better jobs and buyers unlock."
+   },
+   {
+    "text": "Did you grind in Chapter 1? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 MONEY WARNING",
+   "text": [
+    "DON'T FARM",
+    "*CHAPTER 1*"
+   ],
+   "sub": "Here's why"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "WHEN CHAPTER 1 ENDS",
+   "big": "YOUR CASH *RESETS*",
+   "note": "Source: PowerPyx, GamerFuzion, Metaforge"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "INSTEAD",
+   "cards": [
+    [
+     "SPEND ON",
+     "GEAR"
+    ],
+    [
+     "THEN",
+     "PLAY THE STORY",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "THE BIG MONEY",
+   "big": "COMES *LATER*",
+   "sub": "Better jobs and buyers unlock"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DID YOU",
+    "*GRIND IT?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
