@@ -1,0 +1,191 @@
+{
+ "title": "short16_missables",
+ "bg": "drive",
+ "safe": [
+  200,
+  1000
+ ],
+ "host": {
+  "assets": "assets/host",
+  "w": 900,
+  "top": 1030
+ },
+ "voice": {
+  "lines": [
+   {
+    "text": "Worried about missing stuff forever in GTA 6? Relax."
+   },
+   {
+    "text": "Guides say nothing you need for 100 percent completion is missable."
+   },
+   {
+    "text": "At most, one trophy might be."
+   },
+   {
+    "text": "And you can finish everything in free roam after the story."
+   },
+   {
+    "text": "Completionist or story first? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "safe": [
+    180,
+    650
+   ],
+   "host": {
+    "clip": "assets/host/host_motion_hf01.mp4",
+    "from": 0.3,
+    "w": 1080,
+    "top": 660
+   },
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 MISSABLES"
+    },
+    {
+     "type": "gap",
+     "h": 14
+    },
+    {
+     "type": "line",
+     "text": "MISS IT",
+     "size": 100
+    },
+    {
+     "type": "line",
+     "text": "*FOREVER?*",
+     "size": 112
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "100% COMPLETION",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "chip",
+     "text": "NOTHING MISSABLE",
+     "size": 80,
+     "at": 16
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: TheGamesWiki, Egamers",
+     "size": 44,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "AT MOST",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*1 TROPHY*",
+     "size": 150,
+     "at": 12
+    },
+    {
+     "type": "line",
+     "text": "might be missable",
+     "size": 58,
+     "font": "med",
+     "at": 32
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "FINISH IT ALL",
+     "size": 104,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*AFTER THE STORY*",
+     "size": 108,
+     "at": 14
+    },
+    {
+     "type": "line",
+     "text": "in free roam",
+     "size": 58,
+     "font": "med",
+     "at": 34
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "COMPLETIONIST",
+     "size": 104,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "OR *STORY FIRST?*",
+     "size": 104,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 tips",
+     "size": 52,
+     "font": "med",
+     "at": 36
+    }
+   ]
+  }
+ ]
+}

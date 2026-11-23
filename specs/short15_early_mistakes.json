@@ -1,0 +1,74 @@
+{
+ "title": "short15_early_mistakes",
+ "renderer": "motion",
+ "theme": "ember",
+ "voice": {
+  "lines": [
+   {
+    "text": "Three early mistakes that cost you money in GTA 6."
+   },
+   {
+    "text": "One. Carrying all your cash. Die or get arrested and you can lose it."
+   },
+   {
+    "text": "Two. Stealing every car. Check for a tracker or alarm first."
+   },
+   {
+    "text": "Three. Skipping the bank. Use your BuckMe account as soon as it unlocks."
+   },
+   {
+    "text": "Which one got you? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 WARNING",
+   "text": [
+    "3 EARLY",
+    "*MISTAKES*"
+   ],
+   "sub": "That cost you money"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "CARRYING ALL YOUR CASH",
+   "cards": [
+    [
+     "DIE",
+     "LOSE IT"
+    ],
+    [
+     "ARRESTED",
+     "LOSE IT",
+     true
+    ]
+   ],
+   "note": "Source: Beebom, Games.gg, GamerBlurb"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "STEALING EVERY CAR",
+   "big": "CHECK FOR A *TRACKER*",
+   "sub": "or an alarm, first"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "SKIPPING THE BANK",
+   "big": "USE *BUCKME*",
+   "sub": "as soon as it unlocks"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHICH ONE",
+    "*GOT YOU?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

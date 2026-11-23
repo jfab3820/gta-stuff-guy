@@ -1,0 +1,91 @@
+{
+ "title": "short14_family_savings",
+ "renderer": "motion",
+ "theme": "money",
+ "voice": {
+  "lines": [
+   {
+    "text": "Before you finish Chapter 1 in GTA 6, save five thousand dollars here."
+   },
+   {
+    "text": "When Chapter 1 ends, guides say you lose your pocket cash, your checking balance and your stash."
+   },
+   {
+    "text": "But BuckMe Family Savings carries over. You can move up to five thousand into it."
+   },
+   {
+    "text": "Weapons, clothes and tattoos you buy carry over too."
+   },
+   {
+    "text": "Did you save yours? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "BEFORE CHAPTER 1 ENDS",
+   "text": [
+    "SAVE",
+    "*$5,000*"
+   ],
+   "sub": "The one account that survives"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "YOU LOSE",
+   "cards": [
+    [
+     "POCKET CASH",
+     "GONE"
+    ],
+    [
+     "CHECKING",
+     "GONE"
+    ],
+    [
+     "STASH",
+     "GONE",
+     true
+    ]
+   ],
+   "note": "Source: GTABase, VGC, Tech4Gamers"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "YOU KEEP",
+   "big": "*FAMILY SAVINGS*",
+   "sub": "BuckMe app, up to $5,000"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "ALSO KEPT",
+   "cards": [
+    [
+     "WEAPONS",
+     "KEPT"
+    ],
+    [
+     "CLOTHES",
+     "KEPT"
+    ],
+    [
+     "TATTOOS",
+     "KEPT",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DID YOU",
+    "*SAVE YOURS?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
