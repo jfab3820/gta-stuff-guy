@@ -24,7 +24,7 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | --- | --- | --- | --- |
 | Don't farm money in Chapter 1 (posted, Short 13) | "Stop Farming Money in GTA 6 Chapter 1" 328K (39K subs); "GTA 6 Takes ALL Your Money After Chapter 1" 12.7K (749 subs) | Yes, warning plus explanation | verify |
 | First-person: no full mode, but the inspection camera trick (posted, Short 12) | Johnathan: "super huge right now"; Rockstar confirmed no full mode (VGC, Beebom, TweakTown); camera: hold L2/LT and press both sticks (Dot Esports, needs a second source) | Yes, button steps | verify |
-| Do these things before starting / early-game tips | "Do these 10 things before starting GTA 6" 470K (895 subs); JorRaptor early-game tips 300K | Yes, list | verify |
+| Do these things before starting / early-game tips (partly posted: Short 15 early mistakes, Short 14 before Chapter 1 ends) | "Do these 10 things before starting GTA 6" 470K (895 subs); JorRaptor early-game tips 300K | Yes, list | verify |
 | Fast early money | "You need a few thousand dollars? Quick lick" 482K (6.4K subs); "How to get rich early" 154K | Partly, method steps | verify |
 | Things you missed / learned | "5 Things I Learned TODAY In GTA 6" 2.6M (112K subs) | Yes, list | verify |
 | Monster Crab Easter egg | 605K (14.9K subs); 26K (433 subs) | Needs gameplay | needs gameplay |
