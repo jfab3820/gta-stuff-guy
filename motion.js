@@ -10,7 +10,7 @@
 //   {"kind": "item", "badge": "1", "label": "PRICE", "big": "UP TO *212 GB*",
 //    "cards": [["STANDARD", "$79.99"], ["ULTIMATE", "$99.99", true]], "note": "Source: ..."}
 //   {"kind": "cta", "text": ["STANDARD OR", "*ULTIMATE?*"], "sub": "Follow for more GTA 6 answers"}
-// "theme": neon (default) | sunset | ocean | ember | money. Rotate themes so Shorts don't all look alike.
+// "brand": top-left channel name (default GTA STUFF GUY). "theme": neon (default) | sunset | ocean | ember | money | ink (Common Sense). Rotate themes so Shorts don't all look alike.
 // *word* is highlighted. Scene durations come from batch.py (timed to the voice).
 const fs = require('fs');
 const { spawn } = require('child_process');
@@ -26,6 +26,7 @@ const THEMES = {
   sunset: {bg1: '#7a1f2b', bg2: '#3a0d22', bg3: '#14040c', b1: '#ff7a1a', b2: '#ff2e6e', b3: '#ffe066', hl: '#ffe066', kick: '#ff9f1c', pop: '#ff2e6e'},
   ocean:  {bg1: '#063f5c', bg2: '#04263d', bg3: '#010f1a', b1: '#00e0c6', b2: '#2b7bff', b3: '#b6ff3b', hl: '#b6ff3b', kick: '#00e0c6', pop: '#2b7bff'},
   ember:  {bg1: '#3d0a0a', bg2: '#1c0606', bg3: '#070202', b1: '#ff3b1f', b2: '#ff9a1f', b3: '#ffd23f', hl: '#ffd23f', kick: '#ff9a1f', pop: '#ff3b1f'},
+  ink:    {bg1: '#1f3d63', bg2: '#132840', bg3: '#08121f', b1: '#3ABFBF', b2: '#f4ecd8', b3: '#ffd23f', hl: '#ffd23f', kick: '#3ABFBF', pop: '#e4572e'},
   money:  {bg1: '#0b3d1e', bg2: '#06240f', bg3: '#020c05', b1: '#2bff88', b2: '#ffd23f', b3: '#19d3e0', hl: '#ffd23f', kick: '#2bff88', pop: '#16a34a'},
 };
 const T = THEMES[spec.theme] || THEMES.neon;
@@ -80,7 +81,7 @@ html,body{width:${W}px;height:${H}px;overflow:hidden;background:#0b0820;font-fam
 .follow{background:${T.pop};font-weight:700;font-size:64px;letter-spacing:6px;padding:18px 70px;border-radius:80px;box-shadow:0 0 50px rgba(255,46,147,.7)}
 </style></head><body>
 <div id="bg"></div><div class="blob" id="b1"></div><div class="blob" id="b2"></div><div class="blob" id="b3"></div><div id="grid"></div>
-<div id="brand"><i></i>GTA STUFF GUY</div>
+<div id="brand"><i></i>${esc(spec.brand || "GTA STUFF GUY")}</div>
 ${spec.scenes.map(sceneHTML).join('\n')}
 <div id="wipe"></div><div id="bar"></div>
 <script>

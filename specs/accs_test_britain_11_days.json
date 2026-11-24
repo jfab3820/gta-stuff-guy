@@ -1,0 +1,105 @@
+{
+ "title": "accs_test_britain_11_days",
+ "renderer": "motion",
+ "theme": "ink",
+ "brand": "A CAUSE FOR COMMON SENSE",
+ "voice": {
+  "lines": [
+   {
+    "text": "In 1752, Britain went to bed on Wednesday, September second.",
+    "who": "CS"
+   },
+   {
+    "text": "And woke up on Thursday, September fourteenth?",
+    "who": "RR"
+   },
+   {
+    "text": "Eleven days, gone. On purpose.",
+    "who": "CS"
+   },
+   {
+    "text": "Why would anyone do that?",
+    "who": "RR"
+   },
+   {
+    "text": "The old calendar ran about eleven minutes long every year. By 1752, it was eleven days off.",
+    "who": "CS"
+   },
+   {
+    "text": "Even George Washington's birthday moved, from February eleventh to February twenty-second.",
+    "who": "CS"
+   },
+   {
+    "text": "History makes no sense. Follow for more.",
+    "who": "RR"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "BRITAIN, 1752",
+   "text": [
+    "WEDNESDAY",
+    "*SEPT 2*"
+   ],
+   "sub": "Bedtime, as usual"
+  },
+  {
+   "kind": "item",
+   "kicker": "REALITY CHECK",
+   "big": "THURSDAY *SEPT 14?*"
+  },
+  {
+   "kind": "item",
+   "kicker": "COMMON SENSE",
+   "big": "*11 DAYS* GONE",
+   "sub": "On purpose"
+  },
+  {
+   "kind": "item",
+   "kicker": "REALITY CHECK",
+   "big": "*WHY?*"
+  },
+  {
+   "kind": "item",
+   "kicker": "COMMON SENSE",
+   "cards": [
+    [
+     "EACH YEAR",
+     "+11 MIN"
+    ],
+    [
+     "BY 1752",
+     "11 DAYS OFF",
+     true
+    ]
+   ],
+   "note": "Source: Live Science, NPS, History Today"
+  },
+  {
+   "kind": "item",
+   "kicker": "COMMON SENSE",
+   "label": "WASHINGTON'S BIRTHDAY",
+   "cards": [
+    [
+     "BEFORE",
+     "FEB 11"
+    ],
+    [
+     "AFTER",
+     "FEB 22",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "HISTORY THAT",
+    "*MAKES NO SENSE*"
+   ],
+   "sub": "Follow for more"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "voices": {
+  "CS": "Chris iP95p4xoKVk53GoZ742B (5c14d8ef)",
+  "RR": "Sarah EXAVITQu4vr4xnSDxMaL (60b1ec1d)"
+ },
+ "credits": 56,
+ "lines": [
+  {
+   "index": 0,
+   "who": "CS",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/8f96e78e-25e2-46be-a23b-f09d075f26b2.mp3"
+  },
+  {
+   "index": 1,
+   "who": "RR",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/f6577501-e614-439b-891e-aa9b3e6c2d3d.mp3"
+  },
+  {
+   "index": 2,
+   "who": "CS",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/a58ce275-3d3d-450e-9b4b-2a72ea4fd2d6.mp3"
+  },
+  {
+   "index": 3,
+   "who": "RR",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/48e697f9-2f03-49f5-9bb9-23c1ed709a9b.mp3"
+  },
+  {
+   "index": 4,
+   "who": "CS",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/3c43dbd0-d960-4fd6-9198-ce91c8ae4423.mp3"
+  },
+  {
+   "index": 5,
+   "who": "CS",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/a288096d-87be-4b35-89d5-f1038b522505.mp3"
+  },
+  {
+   "index": 6,
+   "who": "RR",
+   "audioUrl": "https://assets.vidiq.com/voiceovers/9018c63d-2ffe-4e61-b2d2-c9b7fe996689/609380ba-d2bc-4004-acfe-2b27b1e1d5d3.mp3"
+  }
+ ]
+}
