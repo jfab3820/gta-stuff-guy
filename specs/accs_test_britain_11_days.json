@@ -47,23 +47,19 @@
   },
   {
    "kind": "item",
-   "kicker": "REALITY CHECK",
    "big": "THURSDAY *SEPT 14?*"
   },
   {
    "kind": "item",
-   "kicker": "COMMON SENSE",
    "big": "*11 DAYS* GONE",
    "sub": "On purpose"
   },
   {
    "kind": "item",
-   "kicker": "REALITY CHECK",
    "big": "*WHY?*"
   },
   {
    "kind": "item",
-   "kicker": "COMMON SENSE",
    "cards": [
     [
      "EACH YEAR",
@@ -79,7 +75,6 @@
   },
   {
    "kind": "item",
-   "kicker": "COMMON SENSE",
    "label": "WASHINGTON'S BIRTHDAY",
    "cards": [
     [
