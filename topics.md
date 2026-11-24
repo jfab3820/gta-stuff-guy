@@ -31,7 +31,9 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | Crabshack VF5 SMG + $10,000 | 125K (549K subs); "Secret weapon & $10K early" 28K (1.7K subs) | Needs gameplay | needs gameplay |
 | Secret loot room / hidden supercars / plane crash wreckage | 30K, 20K, 28K | Needs gameplay | needs gameplay |
 
-Atlas posted: free Leonida map (Nov 20).
+Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24).
+
+Posted Nov 24: police mistakes that keep you wanted (Short 17), Focus (Short 18), don't start Tourist Trap yet (Short 19).
 
 Posted already: unlock times (Short 1), storage size (Short 2), launch night stream (Short 3), 3 things to do first (Short 4).
 
