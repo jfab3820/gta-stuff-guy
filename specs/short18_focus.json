@@ -1,0 +1,92 @@
+{
+ "title": "short18_focus",
+ "renderer": "motion",
+ "theme": "ocean",
+ "voice": {
+  "lines": [
+   {
+    "text": "GTA 6 has an ability a lot of players never use. Focus."
+   },
+   {
+    "text": "Click both sticks at once. L3 and R3, or LS and RS on Xbox."
+   },
+   {
+    "text": "It highlights weak spots, like enemy body parts, engines and tires."
+   },
+   {
+    "text": "It also marks cops and valuables. Watch the purple eye meter in the corner."
+   },
+   {
+    "text": "Did you know about Focus? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 HIDDEN ABILITY",
+   "text": [
+    "ARE YOU USING",
+    "*FOCUS?*"
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "CLICK BOTH STICKS",
+   "cards": [
+    [
+     "PS5",
+     "L3 + R3",
+     true
+    ],
+    [
+     "XBOX",
+     "LS + RS"
+    ]
+   ],
+   "note": "Source: Shacknews, Beebom, GTABase"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "IT HIGHLIGHTS",
+   "cards": [
+    [
+     "ENEMIES",
+     "WEAK SPOTS"
+    ],
+    [
+     "CARS",
+     "ENGINE + TIRES",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "IT ALSO MARKS",
+   "cards": [
+    [
+     "COPS",
+     "SHOWN"
+    ],
+    [
+     "VALUABLES",
+     "SHOWN",
+     true
+    ]
+   ],
+   "sub": "Watch the purple eye meter"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DID YOU KNOW",
+    "*ABOUT FOCUS?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "title": "short19_tourist_trap",
+ "renderer": "motion",
+ "theme": "sunset",
+ "voice": {
+  "lines": [
+   {
+    "text": "Don't start Tourist Trap in GTA 6 until you watch this."
+   },
+   {
+    "text": "It's Chapter 1's point of no return. No free roam until Chapter 2."
+   },
+   {
+    "text": "Jason's house and everything in it is gone for good."
+   },
+   {
+    "text": "So make a manual save in a separate slot first."
+   },
+   {
+    "text": "Did you start it already? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 CHAPTER 1",
+   "text": [
+    "DON'T START",
+    "*TOURIST TRAP*"
+   ],
+   "sub": "until you watch this"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "POINT OF NO RETURN",
+   "big": "NO FREE ROAM",
+   "sub": "until Chapter 2",
+   "note": "Source: VGC, TheGamesWiki, Tech4Gamers"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "JASON'S HOUSE",
+   "big": "*GONE* FOR GOOD",
+   "sub": "and everything in it"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "BEFORE YOU START",
+   "big": "MANUAL *SAVE*",
+   "sub": "in a separate slot"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "ALREADY",
+    "*STARTED IT?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

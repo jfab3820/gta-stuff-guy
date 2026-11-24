@@ -1,0 +1,64 @@
+{
+ "title": "short17_police_mistakes",
+ "renderer": "motion",
+ "theme": "ember",
+ "voice": {
+  "lines": [
+   {
+    "text": "Three police mistakes that keep you wanted in GTA 6."
+   },
+   {
+    "text": "One. Thinking red stars mean you're clear. Cops can still spot your face, clothes and car."
+   },
+   {
+    "text": "Two. Keeping the getaway car. Once it's spotted, switch rides."
+   },
+   {
+    "text": "Three. Going back to the scene. That area can stay hot after you escape."
+   },
+   {
+    "text": "Which one got you? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 POLICE",
+   "text": [
+    "3 MISTAKES",
+    "*KEEPING YOU WANTED*"
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "RED STARS?",
+   "big": "NOT *CLEAR* YET",
+   "sub": "They know your face, clothes and car",
+   "note": "Source: GamesRadar, Dexerto, GTABase"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "THE GETAWAY CAR",
+   "big": "*SWITCH* RIDES",
+   "sub": "once it's been spotted"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "THE CRIME SCENE",
+   "big": "*DON'T* GO BACK",
+   "sub": "It can stay hot after you escape"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHICH ONE",
+    "*GOT YOU?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
