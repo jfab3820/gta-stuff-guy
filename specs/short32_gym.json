@@ -1,0 +1,74 @@
+{
+ "title": "short32_gym",
+ "renderer": "motion",
+ "theme": "ocean",
+ "voice": {
+  "lines": [
+   {
+    "text": "Want more health in GTA 6? Hit the gym."
+   },
+   {
+    "text": "Strength raises your max health. Bench press, deadlift or chest fly."
+   },
+   {
+    "text": "Cardio raises stamina. Treadmill, bike, or just run, ride and swim."
+   },
+   {
+    "text": "Finish every workout, and train Jason and Lucia separately."
+   },
+   {
+    "text": "Gym or no gym? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 HOW-TO",
+   "text": [
+    "MORE",
+    "*HEALTH*"
+   ],
+   "sub": "Hit the gym"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "STRENGTH",
+   "big": "*MAX HEALTH*",
+   "sub": "Bench, deadlift, chest fly",
+   "note": "Source: Gfinity, Metaforge, Insider Gaming"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "CARDIO",
+   "big": "*STAMINA*",
+   "sub": "Treadmill, bike, run, swim"
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "RULES",
+   "cards": [
+    [
+     "FINISH",
+     "EVERY SET"
+    ],
+    [
+     "JASON + LUCIA",
+     "SEPARATE",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "GYM OR",
+    "*NO GYM?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

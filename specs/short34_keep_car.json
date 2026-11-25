@@ -1,0 +1,74 @@
+{
+ "title": "short34_keep_car",
+ "renderer": "motion",
+ "theme": "neon",
+ "voice": {
+  "lines": [
+   {
+    "text": "Want to keep a stolen car in GTA 6? Parking it isn't enough."
+   },
+   {
+    "text": "Unregistered cars can disappear."
+   },
+   {
+    "text": "Once you meet Moses in Chapter 2, take an untracked car to his garage."
+   },
+   {
+    "text": "Respray it, then pick Register. Now it's yours."
+   },
+   {
+    "text": "What's your ride? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 HOW-TO",
+   "text": [
+    "KEEP YOUR",
+    "*STOLEN CAR*"
+   ],
+   "sub": "Parking isn't enough"
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "WARNING",
+   "big": "*IT CAN VANISH*",
+   "sub": "if it's not registered",
+   "note": "Source: KeenGamer, games.gg, GamerBlurb"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "STEP ONE",
+   "big": "*MOSES' GARAGE*",
+   "sub": "Chapter 2, untracked car"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "STEP TWO",
+   "cards": [
+    [
+     "RESPRAY",
+     "DO IT"
+    ],
+    [
+     "REGISTER",
+     "YOURS",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHAT'S",
+    "*YOUR RIDE?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "title": "short30_money_by_chapter",
+ "bg": "drive",
+ "safe": [
+  220,
+  1060
+ ],
+ "voice": {
+  "lines": [
+   {
+    "text": "The best money in every chapter of GTA 6."
+   },
+   {
+    "text": "Chapter 1. Treasure diving, once you finish Island Dreams."
+   },
+   {
+    "text": "Chapter 2. Sell untracked cars to Moses."
+   },
+   {
+    "text": "Chapter 3. Pay 'n' Spray and jewelry stores."
+   },
+   {
+    "text": "Chapter 4. Bank vaults. The first one can be worth about eighty thousand."
+   },
+   {
+    "text": "Save this for later. Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 MONEY"
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "BEST MONEY IN",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*EVERY CHAPTER*",
+     "size": 110,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "CHAPTER 1",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "chip",
+     "text": "TREASURE DIVING",
+     "size": 80,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "after Island Dreams",
+     "size": 54,
+     "at": 26,
+     "font": "med"
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "CHAPTER 2",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "chip",
+     "text": "CARS TO MOSES",
+     "size": 80,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "untracked cars only",
+     "size": 54,
+     "at": 26,
+     "font": "med"
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "CHAPTER 3",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "row",
+     "label": "PAY 'N' SPRAY",
+     "value": "$2.5K-$4K",
+     "at": 12
+    },
+    {
+     "type": "row",
+     "label": "JEWELRY",
+     "value": "$10K-$25K",
+     "hl": true,
+     "at": 24
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "CHAPTER 4",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "chip",
+     "text": "BANK VAULTS",
+     "size": 80,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "first one up to about $80K",
+     "size": 54,
+     "at": 26,
+     "font": "med"
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "line",
+     "text": "Source: GTABase, games.gg, PowerPyx, Timesaver",
+     "size": 40,
+     "font": "med",
+     "at": 36
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "SAVE THIS",
+     "size": 110,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*FOR LATER*",
+     "size": 110,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 tips",
+     "size": 52,
+     "at": 36,
+     "font": "med"
+    }
+   ]
+  }
+ ]
+}

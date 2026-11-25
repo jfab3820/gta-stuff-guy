@@ -1,0 +1,74 @@
+{
+ "title": "short28_jewelry",
+ "renderer": "motion",
+ "theme": "money",
+ "voice": {
+  "lines": [
+   {
+    "text": "Chapter 3 of GTA 6 opens a big payday. Jewelry stores."
+   },
+   {
+    "text": "They unlock after Yasmani's Jewelry Jobs. Guides say ten to twenty five thousand a store."
+   },
+   {
+    "text": "Stop the staff from hitting the alarm, and shut off the back room security."
+   },
+   {
+    "text": "Jewelry is loot, not cash. Sell it to Yasmani, the fence."
+   },
+   {
+    "text": "Hit one yet? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "CHAPTER 3 MONEY",
+   "text": [
+    "JEWELRY",
+    "*STORES*"
+   ],
+   "sub": "A big payday"
+  },
+  {
+   "kind": "item",
+   "badge": "$",
+   "label": "PAYOUT",
+   "big": "*$10K TO $25K*",
+   "sub": "per store, guides say",
+   "note": "Source: Metaforge, Timesaver, GTABase"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "HOW",
+   "cards": [
+    [
+     "STAFF",
+     "NO ALARM"
+    ],
+    [
+     "SECURITY",
+     "OFF",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "THEN",
+   "big": "*SELL TO YASMANI*",
+   "sub": "Jewelry is loot, not cash"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "HIT ONE",
+    "*YET?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

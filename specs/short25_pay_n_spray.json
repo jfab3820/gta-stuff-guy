@@ -1,0 +1,74 @@
+{
+ "title": "short25_pay_n_spray",
+ "renderer": "motion",
+ "theme": "money",
+ "voice": {
+  "lines": [
+   {
+    "text": "Chapter 3 of GTA 6 unlocks a better car buyer. Pay 'n' Spray."
+   },
+   {
+    "text": "Guides say it pays around twenty five hundred to four thousand dollars a car."
+   },
+   {
+    "text": "It takes cars with a standard tracker. Advanced trackers go to Randy."
+   },
+   {
+    "text": "There's a daily limit, so don't stack up stolen cars."
+   },
+   {
+    "text": "Still selling to Moses? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "CHAPTER 3 MONEY",
+   "text": [
+    "BETTER CAR",
+    "*BUYER*"
+   ],
+   "sub": "Pay 'n' Spray"
+  },
+  {
+   "kind": "item",
+   "badge": "$",
+   "label": "PAYOUT",
+   "big": "*$2.5K TO $4K*",
+   "sub": "per car, guides say",
+   "note": "Source: Timesaver, GTABase, PowerPyx"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "TRACKERS",
+   "cards": [
+    [
+     "STANDARD",
+     "OK"
+    ],
+    [
+     "ADVANCED",
+     "RANDY",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "WATCH OUT",
+   "big": "*DAILY LIMIT*",
+   "sub": "Don't stack up stolen cars"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "STILL SELLING",
+    "*TO MOSES?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

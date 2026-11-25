@@ -1,0 +1,78 @@
+{
+ "title": "short29_safe_codes",
+ "renderer": "motion",
+ "theme": "sunset",
+ "voice": {
+  "lines": [
+   {
+    "text": "Looking up safe codes for GTA 6 stores? They won't work."
+   },
+   {
+    "text": "Store safe codes are random, so online lists don't help."
+   },
+   {
+    "text": "Threaten an employee and ask for the code."
+   },
+   {
+    "text": "Or search the store. It can be on a note, a screen or a guard."
+   },
+   {
+    "text": "Did a code ever work for you? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 SECRETS",
+   "text": [
+    "SAFE",
+    "*CODES*"
+   ],
+   "sub": "Why online codes fail"
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "STORE SAFES",
+   "big": "*RANDOM CODES*",
+   "sub": "Online lists won't help",
+   "note": "Source: Beebom, PC Gamer, games.gg"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "OPTION ONE",
+   "big": "*THREATEN STAFF*",
+   "sub": "Ask for the code"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "OPTION TWO",
+   "cards": [
+    [
+     "NOTE",
+     "CHECK"
+    ],
+    [
+     "SCREEN",
+     "CHECK"
+    ],
+    [
+     "GUARD",
+     "CHECK",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DID A CODE",
+    "*WORK?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

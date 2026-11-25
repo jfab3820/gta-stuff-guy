@@ -1,0 +1,193 @@
+{
+ "title": "short33_switch",
+ "bg": "drive",
+ "safe": [
+  200,
+  1000
+ ],
+ "host": {
+  "assets": "assets/host",
+  "w": 900,
+  "top": 1030
+ },
+ "voice": {
+  "lines": [
+   {
+    "text": "Want to switch between Jason and Lucia in GTA 6? Here's how."
+   },
+   {
+    "text": "Hold right on the D-pad to open the partner menu, then press R1 or RB."
+   },
+   {
+    "text": "It unlocks with the story, so you can't swap from the very start."
+   },
+   {
+    "text": "And missions marked J or L are for one character only."
+   },
+   {
+    "text": "Team Jason or team Lucia? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "safe": [
+    180,
+    650
+   ],
+   "host": {
+    "clip": "assets/host/host_motion_hf01.mp4",
+    "from": 0.3,
+    "w": 1080,
+    "top": 660
+   },
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 HOW-TO"
+    },
+    {
+     "type": "gap",
+     "h": 14
+    },
+    {
+     "type": "line",
+     "text": "SWITCH JASON",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*AND LUCIA*",
+     "size": 112,
+     "at": 0
+    }
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "HOW TO SWITCH",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "row",
+     "label": "HOLD",
+     "value": "D-PAD RIGHT",
+     "at": 12
+    },
+    {
+     "type": "row",
+     "label": "THEN",
+     "value": "R1 / RB",
+     "hl": true,
+     "at": 26
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: Gfinity, KeenGamer, VGC",
+     "size": 40,
+     "font": "med",
+     "at": 36
+    }
+   ],
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "UNLOCKS WITH",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*THE STORY*",
+     "size": 140,
+     "at": 12
+    },
+    {
+     "type": "line",
+     "text": "not from the very start",
+     "size": 54,
+     "at": 30,
+     "font": "med"
+    }
+   ],
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "J OR L MISSIONS",
+     "size": 96,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*ONE CHARACTER*",
+     "size": 112,
+     "at": 12
+    }
+   ],
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ]
+  },
+  {
+   "els": [
+    {
+     "type": "line",
+     "text": "TEAM JASON",
+     "size": 104,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*OR LUCIA?*",
+     "size": 104,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 tips",
+     "size": 52,
+     "at": 36,
+     "font": "med"
+    }
+   ],
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ]
+  }
+ ]
+}

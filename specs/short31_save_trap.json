@@ -1,0 +1,74 @@
+{
+ "title": "short31_save_trap",
+ "renderer": "motion",
+ "theme": "ember",
+ "voice": {
+  "lines": [
+   {
+    "text": "Don't lose hours of progress in GTA 6."
+   },
+   {
+    "text": "You get fifteen manual save slots and one autosave."
+   },
+   {
+    "text": "But loading an older save can overwrite your autosave."
+   },
+   {
+    "text": "And you can't save during a mission, so save before you start one."
+   },
+   {
+    "text": "Ever lost progress? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 WARNING",
+   "text": [
+    "SAVE",
+    "*TRAP*"
+   ],
+   "sub": "Don't lose hours"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "SLOTS",
+   "cards": [
+    [
+     "MANUAL",
+     "15"
+    ],
+    [
+     "AUTOSAVE",
+     "1",
+     true
+    ]
+   ],
+   "note": "Source: Dexerto, KeenGamer, GamerFuzion"
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "THE TRAP",
+   "big": "*AUTOSAVE WIPED*",
+   "sub": "when you load an older save"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "MISSIONS",
+   "big": "*NO SAVING*",
+   "sub": "Save before you start"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "EVER LOST",
+    "*PROGRESS?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "title": "short26_fast_travel",
+ "renderer": "motion",
+ "theme": "ocean",
+ "voice": {
+  "lines": [
+   {
+    "text": "Yes, GTA 6 has fast travel. Here's how."
+   },
+   {
+    "text": "Right after the first mission, call Paradise Taxi from your phone."
+   },
+   {
+    "text": "Later, the Buck Me mission unlocks RydeMe."
+   },
+   {
+    "text": "Fares depend on the trip, and RydeMe charges your bank, not your pocket cash."
+   },
+   {
+    "text": "Driving or riding? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 HOW-TO",
+   "text": [
+    "FAST",
+    "*TRAVEL*"
+   ],
+   "sub": "Yes, it has it"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "EARLY",
+   "big": "*PARADISE TAXI*",
+   "sub": "Call it from your phone",
+   "note": "Source: GTABase, VGC, Dot Esports"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "LATER",
+   "big": "*RYDEME*",
+   "sub": "Unlocks with Buck Me"
+  },
+  {
+   "kind": "item",
+   "badge": "$",
+   "label": "RYDEME PAYS WITH",
+   "cards": [
+    [
+     "POCKET CASH",
+     "NO"
+    ],
+    [
+     "BANK",
+     "YES",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DRIVING OR",
+    "*RIDING?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

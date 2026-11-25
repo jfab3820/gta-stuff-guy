@@ -1,0 +1,74 @@
+{
+ "title": "short23_cheats",
+ "renderer": "motion",
+ "theme": "neon",
+ "voice": {
+  "lines": [
+   {
+    "text": "GTA 6 has 61 cheats. But you can't use them yet."
+   },
+   {
+    "text": "Cheats only unlock after you finish the story."
+   },
+   {
+    "text": "Each one also has its own challenge to clear first."
+   },
+   {
+    "text": "And using one turns off trophies and blocks saving until you reload."
+   },
+   {
+    "text": "Will you use cheats? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 CHEATS",
+   "text": [
+    "61 CHEATS",
+    "*LOCKED*"
+   ],
+   "sub": "Here's the catch"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "UNLOCK",
+   "big": "*BEAT THE STORY*",
+   "sub": "No cheats before that",
+   "note": "Source: TweakTown, Dexerto, Shacknews"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "THEN",
+   "big": "*ITS CHALLENGE*",
+   "sub": "Every cheat has one"
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "WARNING",
+   "cards": [
+    [
+     "TROPHIES",
+     "OFF"
+    ],
+    [
+     "SAVING",
+     "BLOCKED",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WILL YOU",
+    "*USE CHEATS?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
