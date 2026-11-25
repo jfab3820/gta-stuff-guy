@@ -35,10 +35,10 @@ Every fact is checked again on the day it is used, even if a source is listed.
 
 | Topic | Claims checked Nov 25 | Sources | Status |
 | --- | --- | --- | --- |
-| Sell cars to Moses in Chapter 2 (Short 20) | Unlocks in a Chapter 2 story mission; about $1,000+ a car; no tracked cars; refuses cars stolen near his garage; damage lowers price | PowerPyx and Insider Gaming (via search), Timesaver, GTABase car stealing guide, games.gg | drafted |
-| 3 things GTA 6 doesn't tell you (Short 21) | No mission replays, save first (Engadget, Insider Gaming, games.gg, Dexerto); some missions need cash first (Rockstar's Rob Nelson via Famitsu; GamesRadar, Beebom, TweakTown); auto drive: waypoint, cinematic cam, hold Circle/B (Beebom, GamerBlurb, xboxplay) | as listed | drafted. Cut: Zombix "ask the clerk" and map interior shading (sources disagree) |
-| Treasure diving (Short 22) | Island Dreams (Chapter 1, Kenton) unlocks it; scuba gear and metal detector; sell finds to Kenton | games.gg, GTABoom, Metaforge, SlashGear | drafted |
-| Atlas: Key Cloner (Atlas 3) | Chapter 3 "Clonin' Keys, Makin' Gs"; Triangle/Y at the driver's door; right stick until the meter fills | Vice, GamesRadar, PC Gamer, PowerPyx, Destructoid (re-checked by Cade Nov 25) | drafted |
+| Sell cars to Moses in Chapter 2 (Short 20) | Unlocks in a Chapter 2 story mission; about $1,000+ a car; no tracked cars; refuses cars stolen near his garage; damage lowers price | PowerPyx and Insider Gaming (via search), Timesaver, GTABase car stealing guide, games.gg | posted |
+| 3 things GTA 6 doesn't tell you (Short 21) | No mission replays, save first (Engadget, Insider Gaming, games.gg, Dexerto); some missions need cash first (Rockstar's Rob Nelson via Famitsu; GamesRadar, Beebom, TweakTown); auto drive: waypoint, cinematic cam, hold Circle/B (Beebom, GamerBlurb, xboxplay) | as listed | posted. Cut: Zombix "ask the clerk" and map interior shading (sources disagree) |
+| Treasure diving (Short 22) | Island Dreams (Chapter 1, Kenton) unlocks it; scuba gear and metal detector; sell finds to Kenton | games.gg, GTABoom, Metaforge, SlashGear | posted |
+| Atlas: Key Cloner (Atlas 3) | Chapter 3 "Clonin' Keys, Makin' Gs"; Triangle/Y at the driver's door; right stick until the meter fills | Vice, GamesRadar, PC Gamer, PowerPyx, Destructoid (re-checked by Cade Nov 25) | posted |
 
 Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24).
 
