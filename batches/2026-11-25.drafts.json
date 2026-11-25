@@ -1,0 +1,10 @@
+{
+ "date": "2026-11-25",
+ "drafts": [
+  {"id": "short20_moses_cars", "uploadId": "790e30e2-ba18-4eb9-b661-fd283cfb713b", "postId": "3efedf85-9779-49aa-9ffa-094f65f0727e", "revision": "0921398e", "publishAt": "2026-11-25T12:30:00-06:00"},
+  {"id": "short21_doesnt_tell_you", "uploadId": "9d14fc73-f8eb-4e7c-8a68-1204f1959e40", "postId": "b903ab7a-f8f8-499f-aea9-220e1dc6d687", "revision": "35633d03", "publishAt": "2026-11-25T16:30:00-06:00"},
+  {"id": "short22_treasure_diving", "uploadId": "2b48a8e3-f0b4-4219-8179-1e6665d603da", "postId": "d0fa7b5d-f095-49ca-82ac-644a0875b5c9", "revision": "50ba6bda", "publishAt": "2026-11-25T19:30:00-06:00"},
+  {"id": "atlas03_key_cloner", "uploadId": "63ceeb84-08db-4321-85fd-9e3c4c348071", "postId": "63bdb877-89d6-4630-84c9-c2ff597a6e19", "revision": "19cae1fb", "publishAt": "2026-11-25T21:30:00-06:00"}
+ ],
+ "status": "drafted, waiting for Johnathan's yes in the Claude app"
+}
