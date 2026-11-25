@@ -31,6 +31,15 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | Crabshack VF5 SMG + $10,000 | 125K (549K subs); "Secret weapon & $10K early" 28K (1.7K subs) | Needs gameplay | needs gameplay |
 | Secret loot room / hidden supercars / plane crash wreckage | 30K, 20K, 28K | Needs gameplay | needs gameplay |
 
+## Nov 25 picks (vidIQ outliers Nov 25: "things the game doesn't tell you" lists at 2.4M to 6.3M views this week; "Easiest Chapter 2 money" 60K on 23K subs)
+
+| Topic | Claims checked Nov 25 | Sources | Status |
+| --- | --- | --- | --- |
+| Sell cars to Moses in Chapter 2 (Short 20) | Unlocks in a Chapter 2 story mission; about $1,000+ a car; no tracked cars; refuses cars stolen near his garage; damage lowers price | PowerPyx and Insider Gaming (via search), Timesaver, GTABase car stealing guide, games.gg | drafted |
+| 3 things GTA 6 doesn't tell you (Short 21) | No mission replays, save first (Engadget, Insider Gaming, games.gg, Dexerto); some missions need cash first (Rockstar's Rob Nelson via Famitsu; GamesRadar, Beebom, TweakTown); auto drive: waypoint, cinematic cam, hold Circle/B (Beebom, GamerBlurb, xboxplay) | as listed | drafted. Cut: Zombix "ask the clerk" and map interior shading (sources disagree) |
+| Treasure diving (Short 22) | Island Dreams (Chapter 1, Kenton) unlocks it; scuba gear and metal detector; sell finds to Kenton | games.gg, GTABoom, Metaforge, SlashGear | drafted |
+| Atlas: Key Cloner (Atlas 3) | Chapter 3 "Clonin' Keys, Makin' Gs"; Triangle/Y at the driver's door; right stick until the meter fills | Vice, GamesRadar, PC Gamer, PowerPyx, Destructoid (re-checked by Cade Nov 25) | drafted |
+
 Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24).
 
 Posted Nov 24: police mistakes that keep you wanted (Short 17), Focus (Short 18), don't start Tourist Trap yet (Short 19).

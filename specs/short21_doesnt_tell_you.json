@@ -1,0 +1,229 @@
+{
+ "title": "short21_doesnt_tell_you",
+ "bg": "drive",
+ "safe": [
+  200,
+  1000
+ ],
+ "host": {
+  "assets": "assets/host",
+  "w": 900,
+  "top": 1030
+ },
+ "voice": {
+  "lines": [
+   {
+    "text": "Three things GTA 6 doesn't tell you."
+   },
+   {
+    "text": "One. You can't replay story missions. Make a manual save before each one."
+   },
+   {
+    "text": "Two. Some story missions won't start until you've earned more cash."
+   },
+   {
+    "text": "Three. Set a waypoint, switch to the cinematic camera and hold Circle or B. Your car drives you there."
+   },
+   {
+    "text": "Which one did you know? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "instant": true,
+   "safe": [
+    180,
+    650
+   ],
+   "host": {
+    "clip": "assets/host/host_motion_hf01.mp4",
+    "from": 0.3,
+    "w": 1080,
+    "top": 660
+   },
+   "els": [
+    {
+     "type": "tag",
+     "text": "GTA 6 TIPS"
+    },
+    {
+     "type": "gap",
+     "h": 14
+    },
+    {
+     "type": "line",
+     "text": "3 THINGS IT",
+     "size": 100
+    },
+    {
+     "type": "line",
+     "text": "*WON'T TELL YOU*",
+     "size": 104
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "1. NO MISSION",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*REPLAYS*",
+     "size": 150,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 20
+    },
+    {
+     "type": "chip",
+     "text": "SAVE BEFORE EACH ONE",
+     "size": 70,
+     "at": 30
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: Engadget, Insider Gaming, Dexerto",
+     "size": 40,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "2. SOME MISSIONS",
+     "size": 100,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*NEED CASH*",
+     "size": 150,
+     "at": 12
+    },
+    {
+     "type": "line",
+     "text": "earn more to start the next one",
+     "size": 54,
+     "font": "med",
+     "at": 30
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: GamesRadar, Beebom, TweakTown",
+     "size": 40,
+     "font": "med",
+     "at": 40
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "3. *AUTO DRIVE*",
+     "size": 120,
+     "at": 0
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "row",
+     "label": "STEP 1",
+     "value": "WAYPOINT",
+     "at": 14
+    },
+    {
+     "type": "row",
+     "label": "STEP 2",
+     "value": "CINEMATIC CAM",
+     "at": 26
+    },
+    {
+     "type": "row",
+     "label": "STEP 3",
+     "value": "HOLD CIRCLE / B",
+     "hl": true,
+     "at": 38
+    },
+    {
+     "type": "gap",
+     "h": 30
+    },
+    {
+     "type": "line",
+     "text": "Source: Beebom, GamerBlurb",
+     "size": 40,
+     "font": "med",
+     "at": 46
+    }
+   ]
+  },
+  {
+   "host": "none",
+   "safe": [
+    300,
+    1380
+   ],
+   "els": [
+    {
+     "type": "line",
+     "text": "WHICH ONE",
+     "size": 110,
+     "at": 0
+    },
+    {
+     "type": "line",
+     "text": "*DID YOU KNOW?*",
+     "size": 110,
+     "at": 12
+    },
+    {
+     "type": "gap",
+     "h": 40
+    },
+    {
+     "type": "line",
+     "text": "Follow for more GTA 6 tips",
+     "size": 52,
+     "font": "med",
+     "at": 36
+    }
+   ]
+  }
+ ]
+}

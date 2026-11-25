@@ -1,0 +1,75 @@
+{
+ "title": "short22_treasure_diving",
+ "renderer": "motion",
+ "theme": "ocean",
+ "voice": {
+  "lines": [
+   {
+    "text": "There's sunken treasure in GTA 6. Here's how to unlock it."
+   },
+   {
+    "text": "Finish Island Dreams, the Chapter 1 shipwreck mission for Kenton."
+   },
+   {
+    "text": "Equip your scuba gear and metal detector, and dive the wrecks he sends you."
+   },
+   {
+    "text": "Follow the detector until it beeps, then sell your finds back to Kenton."
+   },
+   {
+    "text": "Found any yet? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 HOW-TO",
+   "text": [
+    "SUNKEN",
+    "*TREASURE*"
+   ],
+   "sub": "How to unlock diving"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "FINISH",
+   "big": "*ISLAND DREAMS*",
+   "sub": "Chapter 1 mission for Kenton",
+   "note": "Source: games.gg, GTABoom, Metaforge"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "GEAR UP",
+   "cards": [
+    [
+     "SCUBA GEAR",
+     "ON"
+    ],
+    [
+     "METAL DETECTOR",
+     "ON",
+     true
+    ]
+   ],
+   "sub": "Dive the wrecks he texts you"
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "DIVE & SELL",
+   "big": "*SELL TO KENTON*",
+   "sub": "Follow the beeps, then cash in"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "FOUND ANY",
+    "*YET?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

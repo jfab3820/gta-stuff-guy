@@ -1,0 +1,74 @@
+{
+ "title": "short20_moses_cars",
+ "renderer": "motion",
+ "theme": "money",
+ "voice": {
+  "lines": [
+   {
+    "text": "Need fast cash in Chapter 2 of GTA 6? Sell cars to Moses."
+   },
+   {
+    "text": "You meet him in a Chapter 2 mission. Guides say he pays a thousand or more a car."
+   },
+   {
+    "text": "Rule one. No trackers. He won't buy a tracked car."
+   },
+   {
+    "text": "Rule two. Don't steal it near his garage, and keep the damage down. Dents cut the price."
+   },
+   {
+    "text": "Selling to Moses yet? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "CHAPTER 2 MONEY",
+   "text": [
+    "SELL CARS",
+    "*TO MOSES*"
+   ],
+   "sub": "Your first real car buyer"
+  },
+  {
+   "kind": "item",
+   "badge": "$",
+   "label": "PAYOUT",
+   "big": "*$1,000+*",
+   "sub": "per car, guides say",
+   "note": "Source: PowerPyx, Timesaver, GTABase"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "RULE ONE",
+   "big": "*NO TRACKERS*",
+   "sub": "He turns tracked cars away"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "RULE TWO",
+   "cards": [
+    [
+     "STOLEN NEAR HIM",
+     "NO SALE"
+    ],
+    [
+     "DAMAGED",
+     "LESS CASH",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "SELLING TO",
+    "*MOSES YET?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
