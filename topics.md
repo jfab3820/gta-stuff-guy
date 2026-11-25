@@ -44,16 +44,16 @@ Every fact is checked again on the day it is used, even if a source is listed.
 
 | Short | Claims | Sources | Status |
 | --- | --- | --- | --- |
-| 23 Cheats | 61 cheats; unlock only after the story; each has its own challenge; turns off trophies and blocks saving | TweakTown, Dexerto, Shacknews, KeenGamer, AltChar | drafted |
-| 24 Fishing | Catch and release; can't keep or sell fish | Notebookcheck (Rob Nelson), allthings.how, Beebom | drafted |
-| 25 Pay 'n' Spray | Chapter 3; about $2,500 to $4,000 a car; standard trackers OK, advanced go to Randy; daily limit | Timesaver, GTABase, PowerPyx, games.gg | drafted |
-| 26 Fast travel | Paradise Taxi after the first mission; RydeMe after Buck Me, charged to the bank; fares vary | GTABase, VGC, Dot Esports, KeenGamer, Beebom | drafted. Cut: $100 skip fee (one source) |
-| 27 Zombix | Back-to-back pills build tolerance, each dose heals less | games.gg, xboxplay, gta.wiki | drafted |
-| 28 Jewelry stores | Chapter 3 after Yasmani's Jewelry Jobs; about $10K to $25K; stop the alarm, security off; sell to Yasmani | Metaforge, Timesaver, allthings.how, GTABase | drafted. Cut: "lose it if busted" (one source) |
-| 29 Safe codes | Store codes are random; threaten staff; note, screen or guard | Beebom, PC Gamer, gamesfuze, games.gg | drafted |
-| 30 Money by chapter | Ch1 treasure, Ch2 Moses, Ch3 Pay 'n' Spray and jewelry, Ch4 vaults up to about $80K | as Shorts 20, 22, 25, 28 and Atlas 2 | drafted |
-| 31 Save trap | 15 manual + 1 autosave; loading an older save can overwrite the autosave; no saving mid-mission | Dexerto, KeenGamer, GamerFuzion, IBTimes AU, games.gg | drafted |
-| 32 Gym | Strength = max health; Cardio = stamina; finish workouts; Jason and Lucia separate | Gfinity, Metaforge, Insider Gaming, Shacknews, GamerFuzion | drafted |
+| 23 Cheats | 61 cheats; unlock only after the story; each has its own challenge; turns off trophies and blocks saving | TweakTown, Dexerto, Shacknews, KeenGamer, AltChar | posted |
+| 24 Fishing | Catch and release; can't keep or sell fish | Notebookcheck (Rob Nelson), allthings.how, Beebom | posted |
+| 25 Pay 'n' Spray | Chapter 3; about $2,500 to $4,000 a car; standard trackers OK, advanced go to Randy; daily limit | Timesaver, GTABase, PowerPyx, games.gg | posted |
+| 26 Fast travel | Paradise Taxi after the first mission; RydeMe after Buck Me, charged to the bank; fares vary | GTABase, VGC, Dot Esports, KeenGamer, Beebom | posted. Cut: $100 skip fee (one source) |
+| 27 Zombix | Back-to-back pills build tolerance, each dose heals less | games.gg, xboxplay, gta.wiki | posted |
+| 28 Jewelry stores | Chapter 3 after Yasmani's Jewelry Jobs; about $10K to $25K; stop the alarm, security off; sell to Yasmani | Metaforge, Timesaver, allthings.how, GTABase | posted. Cut: "lose it if busted" (one source) |
+| 29 Safe codes | Store codes are random; threaten staff; note, screen or guard | Beebom, PC Gamer, gamesfuze, games.gg | posted |
+| 30 Money by chapter | Ch1 treasure, Ch2 Moses, Ch3 Pay 'n' Spray and jewelry, Ch4 vaults up to about $80K | as Shorts 20, 22, 25, 28 and Atlas 2 | posted |
+| 31 Save trap | 15 manual + 1 autosave; loading an older save can overwrite the autosave; no saving mid-mission | Dexerto, KeenGamer, GamerFuzion, IBTimes AU, games.gg | posted |
+| 32 Gym | Strength = max health; Cardio = stamina; finish workouts; Jason and Lucia separate | Gfinity, Metaforge, Insider Gaming, Shacknews, GamerFuzion | posted |
 | 33 Switch | Hold D-pad right, then R1/RB; unlocks with the story; J or L missions are one character | Gfinity, KeenGamer, VGC, SVG, GamesRadar | drafted |
 | 34 Keep a car | Register at Moses' garage from Chapter 2, untracked, respray then Register; unregistered cars can vanish | KeenGamer, games.gg, GamerBlurb, GamerFuzion, AlcastHQ | drafted |
 
