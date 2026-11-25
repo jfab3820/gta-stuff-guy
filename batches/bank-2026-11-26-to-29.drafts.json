@@ -1,0 +1,18 @@
+{
+ "made": "2026-11-25",
+ "status": "drafted, waiting for Johnathan's yes in the Claude app (must publish before the vidIQ cycle ends ~5:10 PM CT Thu Nov 26)",
+ "drafts": [
+  {"id": "short23_cheats", "uploadId": "e7d2700c-b3c1-4bc7-900b-54f100d4c291", "postId": "6af03d1a-010f-4199-9334-f3c3099272a1", "revision": "ba34abdc", "publishAt": "2026-11-26T12:30:00-06:00"},
+  {"id": "short24_fishing", "uploadId": "c0bc9f5f-2879-4a7d-a87f-d04788f4b3ff", "postId": "c3d30f15-a43c-469b-b2e8-c88845f28fff", "revision": "1def4c9e", "publishAt": "2026-11-26T16:30:00-06:00"},
+  {"id": "short25_pay_n_spray", "uploadId": "af39605d-9d1a-407e-9e55-393c7e894354", "postId": "e8af03a1-a7d4-4a21-8dec-fc5cc8e2cedc", "revision": "5fa924f2", "publishAt": "2026-11-26T19:30:00-06:00"},
+  {"id": "short26_fast_travel", "uploadId": "1318fd1e-e2f2-4cc3-b304-c66b72fa8f6d", "postId": "f3bd38dc-cc87-4b40-9241-eabdfa944f0c", "revision": "c26e658b", "publishAt": "2026-11-27T12:30:00-06:00"},
+  {"id": "short27_zombix", "uploadId": "f92e79fc-9e85-42b6-89b8-1810118c2d5f", "postId": "f29a6764-1664-451f-9c32-c8ab11999b90", "revision": "7afdb919", "publishAt": "2026-11-27T16:30:00-06:00"},
+  {"id": "short28_jewelry", "uploadId": "3e49efde-6639-4adf-8a1b-f6e15100001e", "postId": "7c2136e3-70b6-427d-a871-ce6d0d3d5bd4", "revision": "37953bda", "publishAt": "2026-11-27T19:30:00-06:00"},
+  {"id": "short29_safe_codes", "uploadId": "06a8207d-8ee9-4535-bde1-5d2611577b4f", "postId": "a05bce94-7efc-4dbb-bbd2-f98f3c2faa22", "revision": "f1479c5d", "publishAt": "2026-11-28T12:30:00-06:00"},
+  {"id": "short30_money_by_chapter", "uploadId": "dbd72aa1-30a9-4e7c-a950-72e4b345c990", "postId": "59e6ac5a-abd8-495c-a899-829e6f5c7aa4", "revision": "79ab9478", "publishAt": "2026-11-28T16:30:00-06:00"},
+  {"id": "short31_save_trap", "uploadId": "ff05d546-9d0d-4011-9500-7a34dbee07ee", "postId": "31926313-c709-4ba7-b2e3-32bf10c849cd", "revision": "9245395e", "publishAt": "2026-11-28T19:30:00-06:00"},
+  {"id": "short32_gym", "uploadId": "e437d005-aa11-4d70-be37-fc53534d95da", "postId": "5fe3af27-410b-4ba9-b438-fdf26aaee7db", "revision": "ae31a7af", "publishAt": "2026-11-29T12:30:00-06:00"},
+  {"id": "short33_switch", "uploadId": "93054dd4-f3cb-4533-bf87-d9002ecd3f9a", "postId": "946efcaa-68ee-43c3-bde5-3e30639f2e48", "revision": "f6a583ab", "publishAt": "2026-11-29T16:30:00-06:00"},
+  {"id": "short34_keep_car", "uploadId": "c61dd741-aed7-4a1e-b274-add2bae70484", "postId": "66bc39f9-0249-41bf-94d5-ac73b27c3ca0", "revision": "e4c89b11", "publishAt": "2026-11-29T19:30:00-06:00"}
+ ]
+}
