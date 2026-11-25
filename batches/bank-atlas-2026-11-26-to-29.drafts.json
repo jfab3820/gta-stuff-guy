@@ -1,0 +1,11 @@
+{
+ "made": "2026-11-25",
+ "status": "drafted, waiting for Johnathan's yes; must publish before the vidIQ cycle ends ~5:10 PM CT Thu Nov 26 (YouTube upload limit likely frees ~10:50 AM CT Thu)",
+ "drafts": [
+  {"id": "atlas04_radio_on_foot", "uploadId": "add82e75-2bab-4284-a7a1-9152da4701fa", "postId": "628ce617-70e8-4133-9e17-f938db6770f3", "revision": "20868740", "publishAt": "2026-11-26T21:30:00-06:00"},
+  {"id": "atlas05_find_mission", "uploadId": "e8f33296-df45-44b0-a488-094297c3fb0f", "postId": "afe55583-7849-43e5-8b94-a05e31f515d3", "revision": "cf97485a", "publishAt": "2026-11-27T21:30:00-06:00"},
+  {"id": "atlas06_photo_studio", "uploadId": "48c9c331-7c2d-4cc5-a8b9-4579d4850ddf", "postId": "ee3ac1a0-1529-46cf-a947-b5cc50ea08bd", "revision": "a794f0ca", "publishAt": "2026-11-28T21:30:00-06:00"},
+  {"id": "atlas07_bret_hunting", "uploadId": "3be6c90d-f910-46f7-b26f-e9a2a2881883", "postId": "23a392c2-1552-4ef6-b44e-dedfff0c65c8", "revision": "41c15d87", "publishAt": "2026-11-29T21:30:00-06:00"}
+ ],
+ "review": "Facts re-checked Nov 25: radio on foot (GamesRadar, Beebom, games.gg), pink storybook icon (games.gg, PowerPyx, GamesRadar), Photo Studio overlays (Beebom/Gfinity guides), Bret / Veteran Hunted (PowerPyx, GTABase, eGamers). Frames original, captions correct, loudness -15.4 to -15.7 LUFS."
+}
