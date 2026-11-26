@@ -59,6 +59,14 @@ Every fact is checked again on the day it is used, even if a source is listed.
 
 Dropped Nov 25 (sources thin or conflicting): hunting money, buying businesses, "secret cash box", best cars to steal, yellow vs red tracker rules, map interior shading, Zombix "ask the clerk".
 
+## Monday Nov 30 (made Nov 26 before the vidIQ cycle ends; facts checked Nov 26)
+
+| Short | Claims | Sources | Status |
+| --- | --- | --- | --- |
+| 35 Map colors | Pink with dark letters = main story; dark with pink letters = optional; purple = small side task; hourglass = time limited | games.gg (find missions), allthings.how; TheGamesWiki, Bloxodes (hourglass) | drafted |
+| 36 How long | Rob Nelson's playthrough about 80 hours, with optional missions; 100% well past 100 hours per guides | TechRadar, GamesRadar, Vice; Beebom, Gameriv | drafted |
+| 37 Outfits | Safehouse wardrobe holds bought outfits; some clothing stores and gyms; outfits can be saved to your car | VGC, Gfinity, allthings.how | drafted. Cut: exact car outfit count (sources disagree) |
+
 Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24).
 
 Posted Nov 24: police mistakes that keep you wanted (Short 17), Focus (Short 18), don't start Tourist Trap yet (Short 19).

@@ -1,0 +1,75 @@
+{
+ "title": "short35_map_colors",
+ "renderer": "motion",
+ "theme": "sunset",
+ "voice": {
+  "lines": [
+   {
+    "text": "Confused by the GTA 6 map? Here's what the colors mean."
+   },
+   {
+    "text": "Pink with dark letters is the main story."
+   },
+   {
+    "text": "Dark with pink letters is optional. Purple is a small side task."
+   },
+   {
+    "text": "And an hourglass means it's time limited, so do it soon."
+   },
+   {
+    "text": "Did you know this one? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 SECRETS",
+   "text": [
+    "MAP COLORS",
+    "*EXPLAINED*"
+   ],
+   "sub": "Know what to do next"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "PINK",
+   "big": "*MAIN STORY*",
+   "sub": "pink with dark letters",
+   "note": "Source: games.gg, allthings.how"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "THE REST",
+   "cards": [
+    [
+     "DARK + PINK",
+     "OPTIONAL"
+    ],
+    [
+     "PURPLE",
+     "SIDE TASK",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "!",
+   "label": "HOURGLASS",
+   "big": "*TIME LIMITED*",
+   "sub": "Do it soon",
+   "note": "Source: TheGamesWiki, Bloxodes"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "DID YOU",
+    "*KNOW THIS?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}

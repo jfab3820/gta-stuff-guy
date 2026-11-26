@@ -1,0 +1,74 @@
+{
+ "title": "short37_outfits",
+ "renderer": "motion",
+ "theme": "ember",
+ "voice": {
+  "lines": [
+   {
+    "text": "Cops know your outfit in GTA 6. Here's how to change fast."
+   },
+   {
+    "text": "Your safehouse wardrobe has every outfit you've bought."
+   },
+   {
+    "text": "Some clothing stores and gyms let you change too."
+   },
+   {
+    "text": "And you can save outfits to your own car and change from there."
+   },
+   {
+    "text": "What's your go-to fit? Follow for more GTA 6 tips."
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "kind": "title",
+   "kicker": "GTA 6 TIPS",
+   "text": [
+    "CHANGE",
+    "*FAST*"
+   ],
+   "sub": "Cops know your outfit"
+  },
+  {
+   "kind": "item",
+   "badge": "1",
+   "label": "SAFEHOUSE",
+   "big": "*WARDROBE*",
+   "sub": "Every outfit you've bought",
+   "note": "Source: VGC, Gfinity, allthings.how"
+  },
+  {
+   "kind": "item",
+   "badge": "2",
+   "label": "ALSO",
+   "cards": [
+    [
+     "CLOTHING STORES",
+     "YES"
+    ],
+    [
+     "GYMS",
+     "YES",
+     true
+    ]
+   ]
+  },
+  {
+   "kind": "item",
+   "badge": "3",
+   "label": "ON THE GO",
+   "big": "*YOUR CAR*",
+   "sub": "Save outfits to it first"
+  },
+  {
+   "kind": "cta",
+   "text": [
+    "WHAT'S",
+    "*YOUR FIT?*"
+   ],
+   "sub": "Follow for more GTA 6 tips"
+  }
+ ]
+}
