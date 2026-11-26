@@ -63,11 +63,11 @@ Dropped Nov 25 (sources thin or conflicting): hunting money, buying businesses, 
 
 | Short | Claims | Sources | Status |
 | --- | --- | --- | --- |
-| 35 Map colors | Pink with dark letters = main story; dark with pink letters = optional; purple = small side task; hourglass = time limited | games.gg (find missions), allthings.how; TheGamesWiki, Bloxodes (hourglass) | drafted |
-| 36 How long | Rob Nelson's playthrough about 80 hours, with optional missions; 100% well past 100 hours per guides | TechRadar, GamesRadar, Vice; Beebom, Gameriv | drafted |
-| 37 Outfits | Safehouse wardrobe holds bought outfits; some clothing stores and gyms; outfits can be saved to your car | VGC, Gfinity, allthings.how | drafted. Cut: exact car outfit count (sources disagree) |
+| 35 Map colors | Pink with dark letters = main story; dark with pink letters = optional; purple = small side task; hourglass = time limited | games.gg (find missions), allthings.how; TheGamesWiki, Bloxodes (hourglass) | posted |
+| 36 How long | Rob Nelson's playthrough about 80 hours, with optional missions; 100% well past 100 hours per guides | TechRadar, GamesRadar, Vice; Beebom, Gameriv | posted |
+| 37 Outfits | Safehouse wardrobe holds bought outfits; some clothing stores and gyms; outfits can be saved to your car | VGC, Gfinity, allthings.how | posted. Cut: exact car outfit count (sources disagree) |
 
-Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24).
+Atlas posted: free Leonida map (Nov 20), bank vault jobs (Nov 24), key cloner (Nov 25), radio on foot, next mission, photo mode, Bret hunting (Nov 26-29).
 
 Posted Nov 24: police mistakes that keep you wanted (Short 17), Focus (Short 18), don't start Tourist Trap yet (Short 19).
 
