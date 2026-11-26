@@ -1,3 +1,4 @@
 Nov 25 ~6:30 AM CT: 10 of 12 scheduled. Shorts 33 and 34 (Sun 4:30 and 7:30) refused by YouTube's daily upload limit (uploadLimitExceeded); vidIQ cooldown until 17:54Z. Retry set for 12:05 PM CT (send_later).
 Nov 25 12:06 PM CT and 4:06 PM CT: Shorts 33 and 34 refused again (uploadLimitExceeded, attempts 3; vidIQ cooldown until 02:10Z Nov 26). Stopped retrying for today.
 Nov 26 morning run: retry these two FIRST (publicationIds c0cedd85-308e-43e3-8c61-50fcb35afbdf and 917c6141-f21f-4ea0-9443-fb6d1241c6b4, same postIds/revisions as in the drafts file). The channel took 14 uploads in ~5.5 hours on Nov 25 (about 11:20Z and 16:50Z) before YouTube refused, so the limit likely frees up after about 16:50Z Nov 26 (10:50 AM CT). Everything must be uploaded before the vidIQ cycle ends about 23:10Z Nov 26 (5:10 PM CT).
+Nov 26 1:26 PM CT: Shorts 33 and 34 uploaded and scheduled (attempt 5).

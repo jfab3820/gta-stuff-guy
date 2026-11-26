@@ -54,8 +54,8 @@ Every fact is checked again on the day it is used, even if a source is listed.
 | 30 Money by chapter | Ch1 treasure, Ch2 Moses, Ch3 Pay 'n' Spray and jewelry, Ch4 vaults up to about $80K | as Shorts 20, 22, 25, 28 and Atlas 2 | posted |
 | 31 Save trap | 15 manual + 1 autosave; loading an older save can overwrite the autosave; no saving mid-mission | Dexerto, KeenGamer, GamerFuzion, IBTimes AU, games.gg | posted |
 | 32 Gym | Strength = max health; Cardio = stamina; finish workouts; Jason and Lucia separate | Gfinity, Metaforge, Insider Gaming, Shacknews, GamerFuzion | posted |
-| 33 Switch | Hold D-pad right, then R1/RB; unlocks with the story; J or L missions are one character | Gfinity, KeenGamer, VGC, SVG, GamesRadar | drafted |
-| 34 Keep a car | Register at Moses' garage from Chapter 2, untracked, respray then Register; unregistered cars can vanish | KeenGamer, games.gg, GamerBlurb, GamerFuzion, AlcastHQ | drafted |
+| 33 Switch | Hold D-pad right, then R1/RB; unlocks with the story; J or L missions are one character | Gfinity, KeenGamer, VGC, SVG, GamesRadar | posted |
+| 34 Keep a car | Register at Moses' garage from Chapter 2, untracked, respray then Register; unregistered cars can vanish | KeenGamer, games.gg, GamerBlurb, GamerFuzion, AlcastHQ | posted |
 
 Dropped Nov 25 (sources thin or conflicting): hunting money, buying businesses, "secret cash box", best cars to steal, yellow vs red tracker rules, map interior shading, Zombix "ask the clerk".
 
